@@ -2,6 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+./outputAutoML/diabetic-retinopathy-Debrecen/**
+./outputAutoML/ObesityDataset_raw_and_data_synthetic/**
+./outputAutoML/Thoracic-Surgery-binary-survival/**
+./outputRuns/config_log_files/**
+./outputRuns/prediction_optional_tests/**
 
 # C extensions
 *.so
@@ -109,7 +114,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+.idea/
 # Spyder project settings
 .spyderproject
 .spyproject
