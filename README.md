@@ -33,20 +33,20 @@
 
 ### Root:
 
-The repository's root directory contains two critical components: the *run.sh* script, which enables your to run the analysis
+The repository's root directory contains two critical components: the *run.sh* script, which enables you to run the analysis
 on all main.py files contained within the script and to log the results of the auto-ML pipeline to the appropriate location.
 The three *main_X_dataset.py* files contain the pre-processing, and the AutoML pipeline, from opening and reading the dataset
-to feeding the data into the `PreProcess class` to ensure that the data meets the Auto-Sklearn requirements and running
+to feed the data into the `PreProcess class` to ensure that the data meets the Auto-Sklearn requirements and running
 the Auto-ML tools to extract relevant information thanks to the `Process class` to determine if the data has been properly classified.
 
 ### Datasets:
 
-The datasets folder contains all of the datasets currently being used for analysis, along with their associated feature
-definitions along few .docx /.pdf files.
+The datasets folder contains all of the datasets currently being used for analysis, along with their associated features
+definitions (.docx /.pdf files).
 
 ### Params:
 
-The params folder contains all of the parameters files used to feed the AutoML pipeline. You are welcome to use those
+The params folder contains all of the parameter files used to feed the AutoML pipeline. You are welcome to use those
 that are already available or to add new ones to the folder. Instead of modifying the `main.py`, we add some
 configuration files that contain the parameters for the AutoML pipeline that will be fed.
 The files function as a `KEY VALUE` like a Python dictionary. If the `VALUE` is also a dictionary, write it as a
@@ -55,13 +55,13 @@ parsed to feed the AutoML correctly.
 
 ### SRC (sources):
 
-The SRC directory contains all Python classes and files required to run the project. There should be a `PreProcess` class
+The SRC directory contains all the Python classes and files required to run the project. There should be a `PreProcess` class
 in addition to a `Process` class, as well as an `utils.py` file containing all the project's utility tools.
 
 ### OutputAutoML:
 
 The outputAutoML folder will contain the relevant information obtained from the AutoML pipeline, such as a latex table
-on the results copied and pasted into some `.log` files by the run.sh script.
+about the results that are copied and pasted into some `.log` files by the `run.sh` script.
 
 The popularized format of an output file is as follows:
 
@@ -74,7 +74,7 @@ The popularized format of an output file is as follows:
 
 ### OutputRuns:
 
-The outputAutoML folder will contain all the AutoML outcome (debug, info, warning, config, etc.) through all the runs
+The outputAutoML folder will contain all the AutoML outcomes (debug, info, warning, config, etc.) through all the runs
 you would have made, annotated by the number of the run such as *auto-sklearn-run_x*  `x=1 or 2 and so on`
 
 
@@ -85,7 +85,7 @@ you would have made, annotated by the number of the run such as *auto-sklearn-ru
 Before all, you have to download and install auto-sklearn for python: https://automl.github.io/auto-sklearn/master/installation.html
 \
 \
-For MacOSX users: we have concocted a list steps to follow in order to have auto-sklearn working on your machine: https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
+For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
 
 All the remaining external packages to install can be downloaded as follows:
 ```
@@ -94,13 +94,13 @@ All the remaining external packages to install can be downloaded as follows:
 
 ### Run
 
-As soon as everything's download, you could run the project as follows without modification:
+As soon as everything's downloaded, you could run the project as follows without modification:
 
 ```
 ./run.sh 
 ```
 
-If you wanted to provide new datasets/params files and their appropriate `main_X_datasets.py`, feel free to add
+If you want to provide new datasets/params files and their appropriate `main_X_datasets.py`, feel free to add
 a new line within the `run.sh` script and or comment some. Every output will be moved to where you asked in the `run.sh` script,
 and for those already there in the `OutputAutoML/` folder.
 
