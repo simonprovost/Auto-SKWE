@@ -107,7 +107,7 @@ and for those already there in the `OutputAutoML/` folder.
 #### How to add a new line to the run.sh Script
 
 ```
-# [python_interpreter] [main_X_dataset.py you would like to run] [params file to use to fed into the AutoML Pipeline] [OPTIONAL: a redirection to somewhere]
+# [python_interpreter] [main_X_dataset.py you would like to run] [params file to use to feed into the AutoML Pipeline] [OPTIONAL: a redirection to somewhere]
 python3 main_diabetes_dataset.py "./params/params_seed_42_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_42.log
 ```
 
@@ -178,10 +178,10 @@ autoML = Processing(inputData=X, classLabelData=y, datasetName="name_of_the_data
 autoML.fit_predict()
 
 ### To obtain a list of "n" models or the best one use the following call. The display parameter is there to see if you want the program to output the hyper_parameters in the console.
-models = autoML.getBestModels(numberOfModelToGet=0, display=False)
+models = autoML.get_best_models(numberOfModelToGet=0, display=False)
 
 ### The showLatexTable method allows us to get the Latex Table results from the best model obtained previously.
-autoML.showLatexTable(models[0])
+autoML.show_latex_table(models[0])
 
 ### The showMetrics methods provides evluation metrics according to the level of debugging you set in parameter. The target name is to let the classification_report() printing the one you provide instead of numeric one.
 ### Level 1 = Classification report (f1...).
@@ -189,7 +189,7 @@ autoML.showLatexTable(models[0])
 ### Level 3 = Error Rate.
 ### Level -1 or 4 = Balanced Error Rate.
 ### Higher is the level more metrics is printing.
-autoML.showMetrics(level=4, targetNames=["Class1", "Class2"])
+autoML.show_metrics(level=4, targetNames=["Class1", "Class2"])
 ````
 
 
