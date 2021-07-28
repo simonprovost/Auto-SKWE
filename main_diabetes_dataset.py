@@ -11,7 +11,7 @@ def main(argv):
     input = dataset[1]
     classData = dataset[2]
 
-    data = PreProcess(input, classData)
+    data = PreProcess(input, classData, datasetName="diabetic-retinopathy-Debrecen")
     data.redefineColumnsType()
 
     X = data.input
@@ -20,7 +20,7 @@ def main(argv):
     ### AUTO ML PROCESSING
     params = readParamsFile(argv[1])
 
-    autoML = Processing(inputData=X, classLabelData=y, datasetName="diabetic-retinopathy-Debrecen", **params)
+    autoML = Processing(inputData=X, classLabelData=y, datasetName=data.datasetName, **params)
     autoML.setup()
     autoML.fit_predict()
     models = autoML.getBestModels(numberOfModelToGet=0, display=False)

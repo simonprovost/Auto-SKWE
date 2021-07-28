@@ -11,7 +11,7 @@ def main(argv):
     input = dataset[1]
     classData = dataset[2]
 
-    data = PreProcess(input, classData)
+    data = PreProcess(input, classData, datasetName="Thoracic-Surgery-binary-survival")
 
     data.oneHotEncoding(0, False)
     data.oneHotEncoding(3, False)
@@ -30,7 +30,7 @@ def main(argv):
     data.input[14] = np.array([0 if x == "F" else 1 for x in data.input[14]])
     data.output = np.array([0 if x == "F" else 1 for x in data.output])
 
-    data.reSamplingSMOTE()
+    #//TODO data.reSamplingSMOTE()
 
     X = data.input
     y = data.output
@@ -38,7 +38,7 @@ def main(argv):
     ### AUTO ML PROCESSING
     params = readParamsFile(argv[1])
 
-    autoML = Processing(inputData=X, classLabelData=y, datasetName="Thoracic-Surgery-binary-survival", **params)
+    autoML = Processing(inputData=X, classLabelData=y, datasetName=data.datasetName, **params)
     autoML.setup()
     autoML.fit_predict()
     models = autoML.getBestModels(numberOfModelToGet=0, display=False)

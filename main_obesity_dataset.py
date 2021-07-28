@@ -11,7 +11,7 @@ def main(argv):
     input = dataset[1]
     classData = dataset[2]
 
-    data = PreProcess(input, classData)
+    data = PreProcess(input, classData, datasetName="ObesityDataSet_raw_and_data_synthetic")
     data.genericFeatureScaling(inputData=False, columnName="NObeyesdad",
                                initialArray=['Insufficient_Weight',
                                              'Normal_Weight',
@@ -30,7 +30,7 @@ def main(argv):
 
     params = readParamsFile(argv[1])
 
-    autoML = Processing(inputData=X, classLabelData=y, datasetName="ObesityDataSet_raw_and_data_synthetic", **params)
+    autoML = Processing(inputData=X, classLabelData=y, datasetName=data.datasetName, **params)
     autoML.setup()
     autoML.fit_predict()
     models = autoML.getBestModels(numberOfModelToGet=0, display=False)

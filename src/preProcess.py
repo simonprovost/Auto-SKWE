@@ -73,9 +73,10 @@ class LabelEncoder:
 
 
 class PreProcess:
-    def __init__(self, inputData, classLabelData):
+    def __init__(self, inputData, classLabelData, datasetName):
         self.input = inputData
         self.output = classLabelData
+        self.datasetName = datasetName
         self.encodedData = None
 
     def genericFeatureScaling(self, inputData, columnName, initialArray, outputArray):
@@ -137,3 +138,25 @@ class PreProcess:
                 self.input[x] = pd.to_numeric(self.input[x])
             if np.dtype(self.input[x]) == np.object:
                 self.input[x] = self.input[x].astype("category")
+
+    def checkImbalancedDataset(self, latex=False):
+        classData = np.unique(self.output.values, return_counts=True)
+        total_count = sum(classData[1])
+        results = {
+            "predictive_feature_" + str(x): classData[1][idx] * 100 / total_count
+            for idx, x in enumerate(classData[0])
+        }
+        results['dataset_name'] = self.datasetName
+        results['total_number_of_instances'] = total_count
+        results['number_predictive_features'] = len(classData[0])
+
+        if len(classData[0]) > 2:
+            results['classification_format'] = "multi-class"
+        elif len(classData[0]) == 2:
+            results['classification_format'] = "binary-classification"
+        else:
+            raise ValueError("Class data should have at least two unique values.")
+
+        print(results)
+        if latex:
+            print(pd.DataFrame(results, index=[0]).to_latex(index=False))
