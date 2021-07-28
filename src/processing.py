@@ -8,6 +8,7 @@ import sklearn.datasets
 import sklearn.datasets
 import sklearn.model_selection
 import sklearn.model_selection
+from sklearn.metrics import roc_auc_score, recall_score, f1_score
 
 from src.utils import setSeedEnvironement
 
@@ -17,7 +18,10 @@ from src.utils import setSeedEnvironement
 
 
 class Processing:
-    def __init__(self, inputData, classLabelData, datasetName, tmp_folder="./outputRuns/config_log_files/autosklearn_run", output_folder="./outputRuns/prediction_optional_tests/autosklearn_run", outputDir="./outputRuns", **kwargs):
+    def __init__(self, inputData, classLabelData, datasetName,
+                 tmp_folder="./outputRuns/config_log_files/autosklearn_run",
+                 output_folder="./outputRuns/prediction_optional_tests/autosklearn_run", outputDir="./outputRuns",
+                 **kwargs):
         self.X_train = None
         self.X_test = None
         self.y_train = None
@@ -29,9 +33,9 @@ class Processing:
         self.classLabel = classLabelData
 
         numberOfRunsTmp = len([name for name in os.listdir(outputDir + '/config_log_files') if
-                                    os.path.isdir(os.path.join(outputDir + '/config_log_files', name))]) + 1
+                               os.path.isdir(os.path.join(outputDir + '/config_log_files', name))]) + 1
         numberOfRunsOutput = len([name for name in os.listdir(outputDir + '/prediction_optional_tests') if
-                                       os.path.isdir(os.path.join(outputDir + '/prediction_optional_tests', name))]) + 1
+                                  os.path.isdir(os.path.join(outputDir + '/prediction_optional_tests', name))]) + 1
 
         self.params = kwargs
         self.datasetName = datasetName or "N/A"
@@ -63,15 +67,24 @@ class Processing:
     # METRICS
 
     ### //TODO Disclaimer: Uncoment only if you are using Jupyter.
-    #def showVisualisationPipeline(self):
+    # def showVisualisationPipeline(self):
     #    profiler_data = PipelineProfiler.import_autosklearn(self.autoML)
     #    PipelineProfiler.plot_pipeline_matrix(profiler_data)
+
+    def __isClassLabelData(self):
+        return len(self.__getUniqueValues(self.classLabel)) > 2
+
+    def __getUniqueValues(self, values):
+
+        uniqueAttr = set(values)
+
+        return [x for x in uniqueAttr]
 
     def getBestModels(self, numberOfModelToGet=0, display=True):
         models = []
 
         losses_and_configurations = [
-            (run_value.cost, run_key.config_id, run_value.time, )
+            (run_value.cost, run_key.config_id, run_value.time,)
             for run_key, run_value in self.autoML.automl_.runhistory_.data.items()
         ]
         losses_and_configurations.sort()
@@ -95,8 +108,21 @@ class Processing:
                     if display:
                         print(value)
         if numberOfModelToGet == 0:
+            multi_class_string = 'ovr' if self.__isClassLabelData() else 'raise'
+            y_prob = self.autoML.predict_proba(self.X_test) if self.__isClassLabelData() else self.predictions.tolist()
+
+            models[0]['recall_score'] = recall_score(self.y_test, self.predictions, average="macro")
+            models[0]['f1_score_macro'] = f1_score(self.y_test, self.predictions, average="macro")
+            models[0]['f1_score_micro'] = f1_score(self.y_test, self.predictions, average="micro")
+            #TODO add ovo for imbalanced dataset.
+            if multi_class_string == 'ovr':
+                models[0]['auroc'] = roc_auc_score(self.y_test, y_prob, multi_class=multi_class_string)
+            else:
+                models[0]['auroc'] = roc_auc_score(self.y_test, y_prob)
+
             models[0]['accuracy'] = sklearn.metrics.accuracy_score(self.y_test, self.predictions)
             models[0]['error_rate'] = 100 * (1 - sklearn.metrics.accuracy_score(self.y_test, self.predictions))
+
         return models
 
     def showLatexTable(self, model):
@@ -110,13 +136,17 @@ class Processing:
             "Seed": self.params.get("seed", "N/A"),
             "Score accuracy": model.get('accuracy', "None"),
             "Error rate": model.get('error_rate', "None"),
+            "recall_score": model.get('recall_score', "None"),
+            "f1 score macro": model.get('f1_score_macro', "None"),
+            "f1 score micro": model.get('f1_score_micro', "None"),
+            "auroc": model.get('auroc', "None")
         }, index=[0])
 
         with pd.option_context("max_colwidth", 1000):
             print(df.to_latex(index=False))
 
         for key, value in model['params'].items():
-            print("Param name:" + str(key) + " Value: " + str(value) + "\n")
+            print(str(key) + " & " + str(value) + " \\\\ \\hline \n")
 
     def showMetrics(self, level=None, targetNames=None):
         self.__isAutoMLSetup()
