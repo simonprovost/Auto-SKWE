@@ -1,10 +1,7 @@
 time_left_for_this_task 3600
 per_run_time_limit 360
-n_jobs 2
+n_jobs 4
 memory_limit 5000
 seed 11
 resampling_strategy holdout
 ensemble_size 50
-tmp_folder ./outputRuns/config_log_files/autosklearn_run
-output_folder ./outputRuns/prediction_optional_tests/autosklearn_run
-delete_tmp_folder_after_terminate False

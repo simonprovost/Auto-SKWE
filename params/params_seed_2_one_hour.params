@@ -2,6 +2,6 @@ time_left_for_this_task 3600
 per_run_time_limit 360
 n_jobs 4
 memory_limit 5000
-seed 21
+seed 2
 resampling_strategy holdout
 ensemble_size 50
