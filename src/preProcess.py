@@ -132,12 +132,21 @@ class PreProcess:
             return False
         return True
 
-    def redefineColumnsType(self):
-        for idx, x in enumerate(self.input):
-            if np.dtype(self.input[x]) == np.float64:
-                self.input[x] = pd.to_numeric(self.input[x])
-            if np.dtype(self.input[x]) == np.object:
-                self.input[x] = self.input[x].astype("category")
+    def redefineColumnsType(self, selfInput=True, extraData=None):
+        if selfInput is not True and extraData is not None:
+            results = extraData.copy()
+            for x in results:
+                if np.dtype(results[x]) == np.float64:
+                    results[x] = pd.to_numeric(results[x])
+                if np.dtype(results[x]) == np.object:
+                    results[x] = results[x].astype("category", copy=False)
+            return results
+        else:
+            for idx, x in enumerate(self.input):
+                if np.dtype(self.input[x]) == np.float64:
+                    self.input[x] = pd.to_numeric(self.input[x])
+                if np.dtype(self.input[x]) == np.object:
+                    self.input[x] = self.input[x].astype("category")
 
     def checkImbalancedDataset(self, latex=False):
         classData = np.unique(self.output.values, return_counts=True)
