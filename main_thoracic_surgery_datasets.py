@@ -48,7 +48,7 @@ def main(argv):
     autoML.setup()
     if len(argv) > 2 and argv[2] == "cv":
         autoML.k_folds_split(k_folds=10)
-        autoML.cross_validation_process("./outputCrossValidationAutoML/Thoracic-Surgery-binary-survival/")
+        autoML.cross_validation_process("./outputCrossValidationAutoML/Thoracic-Surgery-binary-survival/", reSampling=True)
         autoML.show_latex_cross_validation_process()
     else:
         autoML.fit_predict()

@@ -1,4 +1,5 @@
 import pickle
+from collections import Counter
 
 import autosklearn.classification
 import numpy
@@ -8,6 +9,7 @@ import sklearn.datasets
 import sklearn.datasets
 import sklearn.model_selection
 import sklearn.model_selection
+from imblearn.over_sampling import SMOTENC
 from sklearn.metrics import roc_auc_score, recall_score, f1_score
 
 from src.utils import setSeedEnvironement
@@ -72,7 +74,27 @@ class Processing:
 
         self.all_10_folds = np.array_split(data, k_folds)
 
-    def cross_validation_process(self, model_output_path=None):
+    def reSamplingSMOTE(self, training_set, inputData, outputData, display=False):
+        counter = Counter(outputData)
+        categoricalFeatures = []
+        for x in training_set[0]:
+            if training_set[0][x].dtype.str == '|O08':
+                categoricalFeatures.append(True)
+            else:
+                categoricalFeatures.append(False)
+
+        oversample = SMOTENC(categorical_features=categoricalFeatures, random_state=0)
+        counter = Counter(outputData)
+        if display:
+            print(counter)
+        inputResampled, outputResampled = oversample.fit_resample(inputData, outputData)
+        counter = Counter(outputResampled)
+        if display:
+            print("#######")
+            print(counter)
+        return inputResampled, outputResampled
+
+    def cross_validation_process(self, model_output_path=None, reSampling=False):
         if not self.all_10_folds:
             raise ValueError(
                 "Please split your dataset with the k_folds_split method before going through the cross-validation method.")
@@ -80,7 +102,10 @@ class Processing:
             training_set = self.all_10_folds.copy()
             training_set.pop(idx)
             test_set = fold
+
             input, output = self.__get_inputs_outputs_from_folds(training_set)
+            if reSampling:
+                input, output = self.reSamplingSMOTE(training_set, input, output, display=True)
 
             self.setup(personalisedInput=input, personalisedOutput=output)
             self.fit_predict()
