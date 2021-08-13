@@ -10,7 +10,7 @@ import sklearn.datasets
 import sklearn.model_selection
 import sklearn.model_selection
 from imblearn.over_sampling import SMOTENC
-from sklearn.metrics import roc_auc_score, recall_score, f1_score
+from sklearn.metrics import roc_auc_score, recall_score, f1_score, precision_score
 
 from src.utils import setSeedEnvironement
 
@@ -181,6 +181,7 @@ class Processing:
             y_prob = autoML.predict_proba(X_test) if self.__is_multi_class_problem() else predictions.tolist()
 
             models[0]['recall_score'] = recall_score(y_test, predictions, average="macro")
+            models[0]['precision'] = precision_score(y_test, predictions, average="macro")
             models[0]['f1_score_macro'] = f1_score(y_test, predictions, average="macro")
             models[0]['f1_score_micro'] = f1_score(y_test, predictions, average="micro")
             # TODO add ovo for imbalanced dataset.
@@ -204,7 +205,7 @@ class Processing:
             "Algorithm time run (s)": model.get('time(s)', "None"),
             "Seed": self.params.get("seed", "N/A"),
             "Score accuracy": model.get('accuracy', "None"),
-            "Error rate": model.get('error_rate', "None"),
+            "precision": model.get('precision', "None"),
             "recall_score": model.get('recall_score', "None"),
             "f1 score macro": model.get('f1_score_macro', "None"),
             "f1 score micro": model.get('f1_score_micro', "None"),

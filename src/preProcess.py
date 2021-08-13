@@ -6,6 +6,7 @@ import pandas as pd
 from imblearn.over_sampling import SMOTE
 from sklearn import preprocessing
 from sklearn.preprocessing import OneHotEncoder
+from itertools import chain
 
 
 class LabelEncoder:
@@ -107,7 +108,8 @@ class PreProcess:
         x_Data = self.encodedData.fit_transform(self.input[column].values.reshape(-1, 1)).toarray()
 
         onehencColumnNames = self.encodedData.get_feature_names()
-        dfOneHot = pd.DataFrame(x_Data, columns=[columnName + "_" + onehencColumnNames[i] for i in range(x_Data.shape[1])])
+        dfOneHot = pd.DataFrame(x_Data,
+                                columns=[columnName + "_" + onehencColumnNames[i] for i in range(x_Data.shape[1])])
         self.input = pd.concat([self.input, dfOneHot], axis=1)
         self.input.drop(column, axis=1, inplace=True)
 
@@ -152,20 +154,25 @@ class PreProcess:
         classData = np.unique(self.output.values, return_counts=True)
         total_count = sum(classData[1])
         results = {
+            'dataset name': self.datasetName,
+            'number of samples': total_count,
+            'number of features': len(self.input.columns),
+            'number of classes': len(classData[0]),
+        }
+
+        classLabelDistrib = {
             "predictive_feature_" + str(x): classData[1][idx] * 100 / total_count
             for idx, x in enumerate(classData[0])
         }
-        results['dataset_name'] = self.datasetName
-        results['total_number_of_instances'] = total_count
-        results['number_predictive_features'] = len(classData[0])
 
         if len(classData[0]) > 2:
-            results['classification_format'] = "multi-class"
+            results['classification format'] = "multi-class"
         elif len(classData[0]) == 2:
-            results['classification_format'] = "binary-classification"
+            results['classification format'] = "binary-classification"
         else:
             raise ValueError("Class data should have at least two unique values.")
 
-        print(results)
+        dest = dict(chain(results.items(), classLabelDistrib.items()))
+
         if latex:
-            print(pd.DataFrame(results, index=[0]).to_latex(index=False))
+            print(pd.DataFrame(dest, index=[0]).to_latex(index=False))
