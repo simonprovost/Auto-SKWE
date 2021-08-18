@@ -31,7 +31,7 @@ def main(argv):
     params = readParamsFile(argv[1])
 
     datasetCrossVal = None
-    if len(argv) > 2 and argv[2] == "cv":
+    if len(argv) == 3 and argv[2] == "cv":
         dataset[0].replace("Insufficient_Weight", 0, inplace=True)
         dataset[0].replace("Normal_Weight", 1, inplace=True)
         dataset[0].replace("Overweight_Level_I", 2, inplace=True)
@@ -40,13 +40,18 @@ def main(argv):
         dataset[0].replace("Obesity_Type_II", 5, inplace=True)
         dataset[0].replace("Obesity_Type_III", 6, inplace=True)
         datasetCrossVal = data.redefineColumnsType(selfInput=False, extraData=dataset[0])
+    if len(argv) == 4 and argv[3] == "weka":
+        datasetCrossVal = data.redefineColumnsType(selfInput=False, extraData=dataset[0])
 
     autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName, **params)
     autoML.setup()
-    if len(argv) > 2 and argv[2] == "cv":
+    if len(argv) == 3 and argv[2] == "cv":
         autoML.k_folds_split(k_folds=10)
         autoML.cross_validation_process("./outputCrossValidationAutoML/ObesityDataset_raw_and_data_synthetic/")
         autoML.show_latex_cross_validation_process()
+    if len(argv) == 4 and argv[3] == "weka":
+        autoML.k_folds_split(k_folds=10)
+        autoML.cross_validation_process("./outputCrossValidationAutoML/ObesityDataset_raw_and_data_synthetic/", AutoSklearn=False)
     else:
         autoML.fit_predict()
         models = autoML.get_best_models(numberOfModelToGet=0, display=False)

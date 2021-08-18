@@ -11,6 +11,7 @@ import sklearn.model_selection
 import sklearn.model_selection
 from imblearn.over_sampling import SMOTENC
 from sklearn.metrics import roc_auc_score, recall_score, f1_score, precision_score
+import arff
 
 from src.utils import setSeedEnvironement
 
@@ -94,7 +95,27 @@ class Processing:
             print(counter)
         return inputResampled, outputResampled
 
-    def cross_validation_process(self, model_output_path=None, reSampling=False):
+    def save_set_arff(self, data, titlePath, extraName, training_set=True, extraAttributes=None):
+        attributes = [(str(j), 'NUMERIC') if data[j].dtypes in ['int64', 'float64'] else (
+            str(j), data[j].unique().astype(str).tolist()) for j in data]
+
+        for x in attributes:
+            if x[1] != 'NUMERIC':
+                x[1].sort()
+
+        arff_dic = {
+            'attributes': attributes if extraAttributes is None else extraAttributes,
+            'data': data.values,
+            'relation': 'set' + extraName,
+            'description': ''
+        }
+
+        with open(titlePath + extraName + ".arff", "w", encoding="utf8") as f:
+            arff.dump(arff_dic, f)
+
+        return attributes
+
+    def cross_validation_process(self, model_output_path=None, reSampling=False, AutoSklearn=True):
         if not self.all_10_folds:
             raise ValueError(
                 "Please split your dataset with the k_folds_split method before going through the cross-validation method.")
@@ -107,22 +128,33 @@ class Processing:
             if reSampling:
                 input, output = self.reSamplingSMOTE(training_set, input, output, display=True)
 
-            self.setup(personalisedInput=input, personalisedOutput=output)
-            self.fit_predict()
+            if AutoSklearn:
+                self.setup(personalisedInput=input, personalisedOutput=output)
+                self.fit_predict()
 
-            filepath = model_output_path + 'classifier_' + self.datasetName + '_' + str(idx) + '.pkl'
-            self.save_model(path=filepath)
-            loaded_classifier = self.load_model(path=filepath)
-            self.all_best_models.append(loaded_classifier)
+                filepath = model_output_path + 'classifier_' + self.datasetName + '_' + str(idx) + '.pkl'
+                self.save_model(path=filepath)
+                loaded_classifier = self.load_model(path=filepath)
+                self.all_best_models.append(loaded_classifier)
 
-            crossValUnseenDataOutput = self.__predict_unseen_data_cross_validation_process(test_set, loaded_classifier)
-            self.ensemble_results.append(crossValUnseenDataOutput[0])
+                crossValUnseenDataOutput = self.__predict_unseen_data_cross_validation_process(test_set, loaded_classifier)
+                self.ensemble_results.append(crossValUnseenDataOutput[0])
+            else:
+                inputArffDf = input.copy()
+                output = output.apply(str)
+                output = output.astype("category")
+                inputArffDf['class'] = output
 
-    def show_latex_cross_validation_process(self, display=False):
-        for model in self.ensemble_results:
-            self.show_latex_table(model)
-            if display:
-                print(model)
+                trainingAttributes = self.save_set_arff(data=inputArffDf, titlePath="training_set_fold", extraName=str(idx), training_set=True)
+                self.save_set_arff(data=test_set, titlePath="test_set_fold", extraName=str(idx), training_set=False, extraAttributes=trainingAttributes)
+
+
+    def show_latex_cross_validation_process(self, display=False, AutoSklearn=True):
+        if AutoSklearn:
+            for model in self.ensemble_results:
+                self.show_latex_table(model)
+                if display:
+                    print(model)
 
     def __predict_unseen_data_cross_validation_process(self, test_set, classifier):
         InputUnseenData = test_set.iloc[:, :-1]

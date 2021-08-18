@@ -2,12 +2,15 @@ import sys
 
 from src.preProcess import *
 from src.processing import Processing
-from src.utils import getDataFromCsv, readParamsFile
+from src.utils import getDataFromCsv, getDataFromArff, readParamsFile
 
 
 def main(argv):
     ### DATA PRE PROCESSING
-    dataset = getDataFromCsv('datasets/heart-failure/Heart-failure-clinical-records_dataset.csv')
+    if len(argv) == 4 and argv[3] == "weka":
+        dataset = getDataFromArff('datasets/heart-failure/Heart-failure-clinical-records_dataset.arff')
+    else:
+        dataset = getDataFromCsv('datasets/heart-failure/Heart-failure-clinical-records_dataset.csv')
     input = dataset[1]
     classData = dataset[2]
 
@@ -26,10 +29,13 @@ def main(argv):
 
     autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName, **params)
     autoML.setup()
-    if len(argv) > 2 and argv[2] == "cv":
+    if len(argv) == 3 and argv[2] == "cv":
         autoML.k_folds_split(k_folds=10)
         autoML.cross_validation_process("./outputCrossValidationAutoML/Heart-failure-clinical-records/")
         autoML.show_latex_cross_validation_process()
+    if len(argv) == 4 and argv[3] == "weka":
+        autoML.k_folds_split(k_folds=10)
+        autoML.cross_validation_process("./outputCrossValidationAutoML/Heart-failure-clinical-records/", AutoSklearn=False)
     else:
         autoML.fit_predict()
         models = autoML.get_best_models(numberOfModelToGet=0, display=False)
