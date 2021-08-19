@@ -11,6 +11,10 @@
 **Auto-WEKA**: https://github.com/automl/autoweka \
 **Auto-Sklearn**: https://github.com/automl/auto-sklearn
 
+## REPORT ABOUT THE ANALYSIS
+
+// In progress, soon available.
+
 ## Architecture of the repository
 ```
 ./
