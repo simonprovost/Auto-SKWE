@@ -98,14 +98,21 @@ Note: At the moment, no model is stored with Auto-Weka's analysis because the fr
 
 ### Install
 
-Before all, you have to download and install auto-sklearn for python: https://automl.github.io/auto-sklearn/master/installation.html
-as well as auto-weka http://www.cs.ubc.ca/labs/beta/Projects/autoweka/manual.pdf.
-\
-\
-For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
-. Unfortunately for MacOSX users we did not found a way to make auto-weka being able to be run on OSX (i.e: see this issue: https://github.com/automl/autoweka/issues/95). Fortunately, it does work on Ubuntu 16/18 LTS.
+#### Step (1): Before all, you have to download and install the following Framework/Library:
 
-All the remaining external packages to install can be downloaded as follows:
+* Auto-sklearn for python: https://automl.github.io/auto-sklearn/master/installation.html _(v. auto-sklearn 0.13.0)_.
+* Auto-weka : http://www.cs.ubc.ca/labs/beta/Projects/autoweka/manual.pdf _(v. 2.6.3)_.
+* Weka : https://waikato.github.io/weka-wiki/downloading_weka/ _(v. weka-3-8-5)_.
+* Scikit-Learn _(see requirement.txt/step(2) for the version+installation)_.
+
+NB:
+
+> For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: > https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
+
+> Unfortunately for MacOSX users we did not found a way to make auto-weka being able to be run on OSX (i.e: see this issue: > https://github.com/automl/autoweka/issues/95). Fortunately, it does work on Ubuntu 16/18 LTS.
+
+#### Step (2): All the remaining external packages to install can be downloaded as follows:
+
 ```
  pip3 install -r requirements.txt # or pip install -r requirements.txt
 ```
