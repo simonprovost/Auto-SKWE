@@ -1,9 +1,9 @@
 # AutoML (Auto-Sklearn & Auto-WEKA)
 
 <p align="justify">
-    The following repository contains an analysis of medical datasets using AUTO-WEKA and AUTO-SKLEARN. 
-    At the moment, only AUTO-SKLEARN is used in the current version. The purpose of this study is to determine
-    whether Auto-WEKA or Auto-Sklearn produces more accurate results while maintaining a reproducible model on medical datasets.
+    The following repository contains an analysis of medical datasets using AUTO-WEKA and AUTO-SKLEARN. The purpose of
+    this study is to determine whether Auto-WEKA or Auto-Sklearn produces more accurate results while maintaining a
+    reproducible model on medical datasets.
     <br /><br />
     The following sections will discuss the architecture of the project, how to run it, and provide some examples.
 </p>
@@ -18,35 +18,45 @@
 │   ├── diabetic-retinopathy-debrecen
 │   ├── obesity-data
 │   └── thoracic-data
+│   └── breast-cancer-data
+│   └── heart-failure-data
 ├── outputAutoML
 │   ├── ObesityDataset_raw_and_data_synthetic
 │   ├── Thoracic-Surgery-binary-survival
 │   └── diabetic-retinopathy-Debrecen
-├── outputRuns
-│   ├── config_log_files
-│   └── prediction_optional_tests
+│   └── breast-cancer
+│   └── heart-failure
+├── outputCrossValidationAutoML
+│   ├── ObesityDataset_raw_and_data_synthetic
+│   ├── Thoracic-Surgery-binary-survival
+│   └── diabetic-retinopathy-Debrecen
+│   └── breast-cancer
+│   └── heart-failure
 ├── params
 └── src
 
-17 directories
+20 directories
 ```
 
 ### Root:
 
-The repository's root directory contains two critical components: the *run.sh* script, which enables you to run the analysis
-on all main.py files contained within the script and to log the results of the auto-ML pipeline to the appropriate location.
-The three *main_X_dataset.py* files contain the pre-processing, and the AutoML pipeline, from opening and reading the dataset
-to feed the data into the `PreProcess class` to ensure that the data meets the Auto-Sklearn requirements and running
-the Auto-ML tools to extract relevant information thanks to the `Process class` to determine if the data has been properly classified.
+The repository's root directory contains two critical components: the Bash scripts, which enables you to run the analysis
+on all main.py files contained within the script and to log the results of the auto-ML pipeline to the appropriate location 
+with the chosen analysis (i.e: simpe or cross-validation either on Auto-Sklearn or Auto-Weka).
+
+The five *main_X_dataset.py* files contain the pre-processing, and the AutoML pipeline, from opening and reading the dataset
+to feed the data into the `PreProcess class` to ensure that the data meets the Auto-Sklearn/Auto-Weka requirements and running
+the Auto-ML tool to extract relevant information thanks to the `Process class` to determine if the data has been properly classified.
 
 ### Datasets:
 
-The datasets folder contains all of the datasets currently being used for analysis, along with their associated features
-definitions (.docx /.pdf files).
+The datasets folder contains all the datasets currently being used for analysis, along with their associated features
+definitions (.docx /.pdf files). Sometimes the dataset is either in csv/arff or both format, csv is useful for Auto-Sklearn
+and arff for Auto-Weka even though arff works with Auto-Sklearn with this program's implementation.
 
 ### Params:
 
-The params folder contains all of the parameter files used to feed the AutoML pipeline. You are welcome to use those
+The params folder contains all the parameter files used to feed the AutoML pipeline. You are welcome to use those
 that are already available or to add new ones to the folder. Instead of modifying the `main.py`, we add some
 configuration files that contain the parameters for the AutoML pipeline that will be fed.
 The files function as a `KEY VALUE` like a Python dictionary. If the `VALUE` is also a dictionary, write it as a
@@ -63,7 +73,7 @@ in addition to a `Process` class, as well as an `utils.py` file containing all t
 The outputAutoML folder will contain the relevant information obtained from the AutoML pipeline, such as a latex table
 about the results that are copied and pasted into some `.log` files by the `run.sh` script.
 
-The popularized format of an output file is as follows:
+The chosen format of an output file is as follows:
 
 ```
 [A Latex table showing the following results: Dataset name &        Classifier &  Search Time limit &  Algorithm time run (s) &  Seed &  Score accuracy &  Error rate]
@@ -71,11 +81,13 @@ The popularized format of an output file is as follows:
 [All the Hyper Parameters chosen by the AutoML Pipeline]
 ```
 
+Note: At the moment for Auto-Weka it is not like that but will be in the future. Auto-Weka report are the output of Auto-Weka
+into a log that has to be then extracted into a latex file.
 
-### OutputRuns:
+### OutputCrossValidationAutoML:
 
-The outputAutoML folder will contain all the AutoML outcomes (debug, info, warning, config, etc.) through all the runs
-you would have made, annotated by the number of the run such as *auto-sklearn-run_x*  `x=1 or 2 and so on`
+The models are stored in this repository as soon as the Auto-ML tool has fitted them.
+Note: At the moment, no model is stored with Auto-Weka's analysis because the framework does not allow it.
 
 
 ## How to Install / Run the project
@@ -83,9 +95,11 @@ you would have made, annotated by the number of the run such as *auto-sklearn-ru
 ### Install
 
 Before all, you have to download and install auto-sklearn for python: https://automl.github.io/auto-sklearn/master/installation.html
+as well as auto-weka http://www.cs.ubc.ca/labs/beta/Projects/autoweka/manual.pdf.
 \
 \
 For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
+. Unfortunately for MacOSX users we did not found a way to made auto-weka being able to be run on OSX (i.e: see this issue: https://github.com/automl/autoweka/issues/95). However, it does work on Ubuntu 16/18 LTS.
 
 All the remaining external packages to install can be downloaded as follows:
 ```
@@ -96,8 +110,21 @@ All the remaining external packages to install can be downloaded as follows:
 
 As soon as everything's downloaded, you could run the project as follows without modification:
 
+Searching of the best classifier given all the datasets available on the entire dataset using Auto-Sklearn:
 ```
-./run.sh 
+./run_simple_auto_ml.sh
+```
+
+Searching of the best classifier given all the datasets available with a 10-fold cross validation using Auto-Sklearn/Auto-Weka:
+
+Auto-Sklearn:
+```
+./run_cross_validation_auto_ml.sh
+```
+
+Auto-Weka:
+```
+./run_cross_validation_auto_ml.sh weka
 ```
 
 If you want to provide new datasets/params files and their appropriate `main_X_datasets.py`, feel free to add
@@ -111,12 +138,7 @@ and for those already there in the `OutputAutoML/` folder.
 python3 main_diabetes_dataset.py "./params/params_seed_42_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_42.log
 ```
 
-### Documentation
-
-// In progress refers to the examples bellow for a few help to start. https://github.com/simonprovost/AutoML/projects/1#card-64929428 
-
 ### A few example of how to use the available methods through all classes
-
 
 #### [0] How to use Arff file ?
 
@@ -174,6 +196,7 @@ print(params) #should be a dictionary `like`.
 ### The datasetName is simply to get a better output at the very end.
 autoML = Processing(inputData=X, classLabelData=y, datasetName="name_of_the_dataset_for_the_output", **params)
 
+# do not forget to autoML.setup().
 ### The setup is a necessary step before proceeding further. This method establishes the AutoML pipeline, splits the data, and also establishes the seed value across the whole run.
 autoML.fit_predict()
 
@@ -190,6 +213,25 @@ autoML.show_latex_table(models[0])
 ### Level -1 or 4 = Balanced Error Rate.
 ### Higher is the level more metrics is printing.
 autoML.show_metrics(level=4, targetNames=["Class1", "Class2"])
+````
+
+
+#### [5] How to use the Process class cross validation method ?
+
+````python
+### The following instantiate the class with as parameters: the Input/ClassLabel data you would have obtained through the PreProcess or even before (see examples [0] [1] [2]).
+### The params parameter is one of the most important is it is the params that is going to be feed to the AutoML pipeline. See example [3].
+### The datasetName is simply to get a better output at the very end.
+autoML = Processing(inputData=X, classLabelData=y, datasetName="name_of_the_dataset_for_the_output", **params)
+
+# Do not forget to autoML.setup().
+### Firt and foremost the k_folds split will split the dataset into k folds.
+autoML.k_folds_split(k_folds=10)
+
+### the cross validation process will take care of fitting 10 models using the cross-validation process chosen (i.e: 9 folds for the training one for the testingà).
+### Will also do a resample if request (see parameters). Which will at the end either test with Scikit Learn for Auto Sklearn the fitted model or
+### run auto-weka with the folds splitted and results the outcome of Auto-Weka.
+autoML.cross_validation_process("./outputCrossValidationAutoML/name_of_the_dataset_for_the_output/")
 ````
 
 
