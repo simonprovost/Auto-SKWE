@@ -5,7 +5,7 @@
     this study is to determine whether Auto-WEKA or Auto-Sklearn produces more accurate results while maintaining a
     reproducible model on medical datasets.
     <br /><br />
-    The following sections will discuss the architecture of the project, how to run it, and provide some examples.
+    The following sections will discuss the architecture of the project, how to run it, and provide some examples on how to use the whole program made for the experiments.
 </p>
 
 **Auto-WEKA**: https://github.com/automl/autoweka \
@@ -56,7 +56,7 @@ the Auto-ML tool to extract relevant information thanks to the `Process class` t
 
 The datasets folder contains all the datasets currently being used for analysis, along with their associated features
 definitions (.docx /.pdf files). Sometimes the dataset is either in csv/arff or both format, csv is useful for Auto-Sklearn
-and arff for Auto-Weka even though arff works with Auto-Sklearn with this program's implementation.
+and arff for Auto-Weka even though arff works with Auto-Sklearn along this program's implementation.
 
 ### Params:
 
@@ -80,17 +80,17 @@ about the results that are copied and pasted into some `.log` files by the `run.
 The chosen format of an output file is as follows:
 
 ```
-[A Latex table showing the following results: Dataset name &        Classifier &  Search Time limit &  Algorithm time run (s) &  Seed &  Score accuracy &  Error rate]
+[A Latex table showing the following results: Dataset name &        Classifier &  Search Time limit &  Algorithm time run (s) &  Seed &  Score accuracy &  Recall & Precision & F1 Micro / Macro & AUROC ]
 
 [All the Hyper Parameters chosen by the AutoML Pipeline]
 ```
 
 Note: At the moment for Auto-Weka it is not like that but will be in the future. Auto-Weka report are the output of Auto-Weka
-into a log that has to be then extracted into a latex file.
+into a log that has to be then extracted into a latex file/format by hand.
 
 ### OutputCrossValidationAutoML:
 
-The models are stored in this repository as soon as the Auto-ML tool has fitted them.
+The models are stored in this directory as soon as the Auto-ML tool has fitted them.
 Note: At the moment, no model is stored with Auto-Weka's analysis because the framework does not allow it.
 
 
@@ -103,7 +103,7 @@ as well as auto-weka http://www.cs.ubc.ca/labs/beta/Projects/autoweka/manual.pdf
 \
 \
 For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
-. Unfortunately for MacOSX users we did not found a way to made auto-weka being able to be run on OSX (i.e: see this issue: https://github.com/automl/autoweka/issues/95). However, it does work on Ubuntu 16/18 LTS.
+. Unfortunately for MacOSX users we did not found a way to make auto-weka being able to be run on OSX (i.e: see this issue: https://github.com/automl/autoweka/issues/95). Fortunately, it does work on Ubuntu 16/18 LTS.
 
 All the remaining external packages to install can be downloaded as follows:
 ```
