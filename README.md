@@ -13,7 +13,7 @@
 
 ## REPORT ABOUT THE ANALYSIS
 
-// In progress, soon available.
+[Click here to see the latest report available!](https://github.com/simonprovost/AutoML/blob/main/report/latest_report.pdf)
 
 ## Architecture of the repository
 ```
