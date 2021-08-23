@@ -33,7 +33,7 @@ def main(argv):
         autoML.k_folds_split(k_folds=10)
         autoML.cross_validation_process("./outputCrossValidationAutoML/Heart-failure-clinical-records/")
         autoML.show_latex_cross_validation_process()
-    if len(argv) == 4 and argv[3] == "weka":
+    elif len(argv) == 4 and argv[3] == "weka":
         autoML.k_folds_split(k_folds=10)
         autoML.cross_validation_process("./outputCrossValidationAutoML/Heart-failure-clinical-records/", AutoSklearn=False)
     else:
