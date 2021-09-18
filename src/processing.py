@@ -51,7 +51,43 @@ class Processing:
         self.X_train, self.X_test, self.y_train, self.y_test = \
             sklearn.model_selection.train_test_split(input, output, random_state=None)
 
+        logging_config = {
+            'version': 1,
+            'disable_existing_loggers': True,
+            'formatters': {
+                'custom': {
+                    # More format options are available in the official
+                    # `documentation <https://docs.python.org/3/howto/logging-cookbook.html>`_
+                    'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                }
+            },
+
+            # Any INFO level msg will be printed to the console
+            'handlers': {
+                'console': {
+                    'level': 'INFO',
+                    'formatter': 'custom',
+                    'class': 'logging.StreamHandler',
+                    'stream': 'ext://sys.stdout',
+                },
+            },
+
+            'loggers': {
+                '': {  # root logger
+                    'level': 'DEBUG',
+                },
+                'Client-EnsembleBuilder': {
+                    'level': 'DEBUG',
+                    'handlers': ['console'],
+                },
+            },
+        }
+
         self.autoML = autosklearn.classification.AutoSklearnClassifier(
+            #logging_config=logging_config,
+            # *auto-sklearn* generates temporal files under tmp_folder
+            #tmp_folder='./tmp_folder',
+            #delete_tmp_folder_after_terminate=True,
             **self.params,
         )
 
@@ -63,7 +99,12 @@ class Processing:
         if showModels:
             print(self.autoML.show_models())
         self.predictions = self.autoML.predict(X=self.X_test)
-        self.predictions = self.predictions.astype(str).astype(int)
+        print(self.predictions)
+        print(type(self.predictions[0]))
+        try:
+            self.predictions = self.predictions.astype(str).astype(int)
+        except ValueError:
+            self.predictions = self.predictions.astype(int)
 
     # CROSS VALIDATION
 
@@ -101,7 +142,15 @@ class Processing:
 
         for x in attributes:
             if x[1] != 'NUMERIC':
+                tmp = np.array(x[1])
+                npData = []
+
+                for idx, j in enumerate(tmp):
+                    if j == 'nan':
+                        npData.append(j)
+                        x[1].pop(idx)
                 x[1].sort()
+                x[1].extend(npData)
 
         arff_dic = {
             'attributes': attributes if extraAttributes is None else extraAttributes,
@@ -212,15 +261,22 @@ class Processing:
             multi_class_string = 'ovr' if self.__is_multi_class_problem() else 'raise'
             y_prob = autoML.predict_proba(X_test) if self.__is_multi_class_problem() else predictions.tolist()
 
+            print("multi_class_string:", multi_class_string)
+
             models[0]['recall_score'] = recall_score(y_test, predictions, average="macro")
             models[0]['precision'] = precision_score(y_test, predictions, average="macro")
             models[0]['f1_score_macro'] = f1_score(y_test, predictions, average="macro")
             models[0]['f1_score_micro'] = f1_score(y_test, predictions, average="micro")
             # TODO add ovo for imbalanced dataset.
-            if multi_class_string == 'ovr':
-                models[0]['auroc'] = roc_auc_score(y_test, y_prob, multi_class=multi_class_string)
-            else:
-                models[0]['auroc'] = roc_auc_score(y_test, y_prob)
+
+            try:
+                if multi_class_string == 'ovr':
+                    models[0]['auroc'] = roc_auc_score(y_test, y_prob, multi_class=multi_class_string)
+                else:
+                    models[0]['auroc'] = roc_auc_score(y_test, y_prob)
+            except ValueError:
+                models[0]['auroc'] = "N/A"
+
 
             models[0]['accuracy'] = sklearn.metrics.accuracy_score(y_test, predictions)
             models[0]['error_rate'] = 100 * (1 - sklearn.metrics.accuracy_score(y_test, predictions))
@@ -252,6 +308,13 @@ class Processing:
 
     def show_metrics(self, level=None, targetNames=None):
         self.__is_auto_ml_setup()
+
+        print("self.y_test:", len(self.y_test))
+        print("self.predictions:", len(self.predictions))
+
+        print(np.count_nonzero(self.y_test))
+        print(np.count_nonzero(self.y_train))
+
 
         print(self.autoML.sprint_statistics())
         print("Accuracy score", sklearn.metrics.accuracy_score(self.y_test, self.predictions))
@@ -300,7 +363,10 @@ class Processing:
         return len(self.__get_unique_values(self.classLabel)) > 2
 
     def __get_unique_values(self, values):
-
-        uniqueAttr = set(values)
+        uniqueAttr = None
+        if isinstance(values, list) and values[0]:
+            return [0, 1, 2, 3] #Note: If the output is a list where each cell are also a list of values it means that multiple class label data is available. [0, 1, 2, 3] is just to pass true the condition which says whether you are more than 2 unique values it means that it is a multi class problem.
+        else:
+            uniqueAttr = set(values)
 
         return [x for x in uniqueAttr]
