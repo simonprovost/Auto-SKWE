@@ -1,4 +1,10 @@
+import os
 import sys
+import inspect
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
 
 from src.preProcess import *
 from src.processing import Processing
@@ -27,7 +33,8 @@ def main(argv):
     if len(argv) > 2 and argv[2] == "cv":
         datasetCrossVal = data.redefineColumnsType(selfInput=False, extraData=dataset[0])
 
-    autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName, **params)
+    autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName,
+                        **params)
     autoML.setup()
 
     if len(argv) == 3 and argv[2] == "cv":
