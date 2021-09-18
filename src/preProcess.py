@@ -80,7 +80,7 @@ class PreProcess:
         self.datasetName = datasetName
         self.encodedData = None
 
-    def genericFeatureScaling(self, inputData, columnName, initialArray, outputArray):
+    def genericFeatureScaling(self, inputData, columnName, initialArray, outputArray, changeType=None):
         if not initialArray or not outputArray or len(initialArray) != len(outputArray):
             raise ValueError("initialArray && OutputArray (with the same size) is needed to continue the process!")
 
@@ -93,6 +93,8 @@ class PreProcess:
                 self.output[columnName] = np.where(
                     (self.output[columnName] == value), outputArray[idx], self.output[columnName]
                 )
+        if changeType == "Number":
+            self.input[columnName] = pd.to_numeric(self.input[columnName])
 
     def labelEncoding(self, columns):
         self.encodedData = LabelEncoder()
@@ -110,7 +112,7 @@ class PreProcess:
         onehencColumnNames = self.encodedData.get_feature_names()
         dfOneHot = pd.DataFrame(x_Data,
                                 columns=[columnName + "_" + onehencColumnNames[i] for i in range(x_Data.shape[1])])
-        self.input = pd.concat([self.input, dfOneHot], axis=1)
+        self.input = self.input.join(dfOneHot)
         self.input.drop(column, axis=1, inplace=True)
 
     def convertsToIntegerType(self, columns):
@@ -120,7 +122,6 @@ class PreProcess:
     def reSamplingSMOTE(self):
         counter = Counter(self.output)
         oversample = SMOTE()
-        self.input, self.output = oversample.fit_resample(self.input, self.output)
         counter = Counter(self.output)
 
     def __checkFullFloat(self, array):
