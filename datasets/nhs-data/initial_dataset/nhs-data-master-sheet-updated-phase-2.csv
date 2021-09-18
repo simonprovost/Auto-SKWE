@@ -1,0 +1,1473 @@
+,Unnamed: 0,Age At Collection,Specimen Number Full,Gender,Maximum dimension,Tumour Thickness,Lymphovascular,Histo,Grade,Level of Invasion,Anatomical Site,Peripheral Margin (Raw),Peripheral Margin (Deep),Perineural(Replaced),Subtype,High or low
+0,0.0,87.0,PH000029P/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+1,1.0,71.0,PH000059T/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+2,2.0,66.0,PH000101V/20,Male,,>6mm,,BCC,,Clark Level 5,Cheek,1.0,1.0,Present,Nodular-Infiltrative,High
+3,3.0,53.0,PH000109N/20,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Ear,0.0,0.0,Absent,subtype: no special type,
+4,4.0,84.0,PH000132B/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+5,5.0,78.0,PH000134X/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+6,6.0,85.0,PH000136L/20,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,Nodular,Low
+7,7.0,72.0,PH000150F/20,,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,Nodular,Low
+8,8.0,90.0,PH000219E/20,Female,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Present,Nodular-Infiltrative,High
+9,9.0,76.0,PH000221L/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular-Infiltrative,High
+10,10.0,85.0,PH000251J/20,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Cheek,0.0,0.0,Absent,subtype: no special type,
+11,11.0,63.0,PH000282C/20,Male,,>2-4mm,Absent,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+12,12.0,78.0,PH000283T/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodulocystic,Low
+13,13.0,81.0,PH000284K/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+14,14.0,87.0,PH000285M/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+15,15.0,72.0,PH000312J/18,Male,,>6mm,Present,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+16,16.0,58.0,PH000314E/21,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+17,17.0,80.0,PH000320J/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+18,18.0,87.0,PH000391T/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,Nodular-Infiltrative,High
+19,19.0,88.0,PH000423Z/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Present,subtype: no special type,
+20,20.0,83.0,PH000425Q/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+21,21.0,87.0,PH000485E/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+22,22.0,86.0,PH000488W/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+23,23.0,76.0,PH000532V/21,Male,,,,BCC,,,,1.0,1.0,Absent,unknown,
+24,24.0,84.0,PH000533B/21,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+25,25.0,62.0,PH000535X/21,Male,,>6mm,,BCC,,Clark Level 5,,1.0,0.0,Present,Nodular,Low
+26,26.0,89.0,PH000614N/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+27,27.0,86.0,PH000686R/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+28,28.0,91.0,PH000699X/20,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,0.0,Absent,unknown,
+29,29.0,81.0,PH000764J/20,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+30,30.0,55.0,PH000833N/21,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+31,31.0,93.0,PH000973N/18,Female,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,unknown,
+32,32.0,72.0,PH000983G/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Present,unknown,
+33,33.0,73.0,PH001071E/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+34,34.0,82.0,PH001142W/20,Male,,,,BCC,,,Eyelid,1.0,0.0,Absent,Nodular,Low
+35,35.0,81.0,PH001144A/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Present,unknown,
+36,36.0,79.0,PH001146C/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,subtype: no special type,
+37,37.0,79.0,PH001147T/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+38,38.0,94.0,PH001169F/20,Female,,,,BCC,,,Nose,0.0,1.0,Absent,Nodular,Low
+39,39.0,90.0,PH001176J/21,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Forehead,1.0,1.0,Absent,subtype: no special type,
+40,40.0,96.0,PH001177V/21,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Absent,unknown,
+41,41.0,90.0,PH001178B/21,Female,,,,BCC,,,Forehead,1.0,1.0,Uncertain,Superficial/Nodular,Low
+42,42.0,70.0,PH001190B/20,Male,,,Absent,BCC,,,Neck,1.0,1.0,Absent,Superficial/Nodular,Low
+43,43.0,91.0,PH001218H/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+44,44.0,94.0,PH001219Y/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+45,45.0,72.0,PH001221K/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+46,46.0,85.0,PH001228P/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+47,47.0,89.0,PH001237H/21,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+48,48.0,98.0,PH001238Y/21,Male,,,,BCC,,,,0.0,0.0,Uncertain,Nodular,Low
+49,49.0,76.0,PH001239W/21,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+50,50.0,77.0,PH001245Z/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Present,unknown,
+51,51.0,83.0,PH001251W/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+52,52.0,87.0,PH001281Z/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+53,53.0,52.0,PH001294K/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+54,54.0,86.0,PH001297Y/20,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+55,55.0,70.0,PH001305T/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+56,56.0,69.0,PH001325G/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+57,57.0,76.0,PH001361F/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,0.0,Present,subtype: no special type,
+58,58.0,87.0,PH001391B/18,Female,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+59,59.0,72.0,PH001426X/21,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+60,60.0,77.0,PH001439D/21,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+61,61.0,75.0,PH001440P/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+62,62.0,80.0,PH001457M/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+63,63.0,76.0,PH001460E/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Neck,1.0,0.0,Present,subtype: no special type,
+64,64.0,79.0,PH001475P/21,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Superficial,Low
+65,65.0,79.0,PH001514S/20,Female,,,,BCC,,,Ear,1.0,0.0,Absent,infiltrative,high
+66,66.0,95.0,PH001617W/21,Female,,,Absent,BCC,,,Cheek,0.0,0.0,Absent,Nodular,Low
+67,67.0,93.0,PH001629T/21,Female,,,,BCC,,Clark Level 5,Cheek,0.0,0.0,Absent,unknown,
+68,68.0,87.0,PH001804A/20,Female,60mm,>6mm,,BCC,,Clark Level 5,Neck,1.0,1.0,Present,unknown,
+69,69.0,88.0,PH001866M/21,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+70,70.0,76.0,PH001868V/21,Male,,>6mm,,BCC,,Clark Level 5,Lip,1.0,,Absent,Nodular,Low
+71,71.0,64.0,PH002006C/21,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+72,72.0,75.0,PH002007T/21,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+73,73.0,70.0,PH002049C/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Neck,1.0,1.0,Absent,subtype: no special type,
+74,74.0,89.0,PH002141F/20,Male,,,,BCC,,,,0.0,1.0,Absent,unknown,
+75,75.0,82.0,PH002143K/20,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Present,Nodular,Low
+76,76.0,74.0,PH002155K/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+77,77.0,93.0,PH002158Q/21,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+78,78.0,71.0,PH002158V/20,Male,,,,BCC,,,Chin,0.0,1.0,,Nodular,Low
+79,79.0,75.0,PH002167K/20,Male,,,,BCC,,,Ear,1.0,0.0,Absent,infiltrative,high
+80,80.0,83.0,PH002168M/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodulocystic,Low
+81,81.0,67.0,PH002170Q/20,Female,,,,BCC,,,Temple,0.0,1.0,Absent,Nodular,Low
+82,82.0,56.0,PH002202Y/21,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+83,83.0,79.0,PH002232R/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,,Absent,unknown,
+84,84.0,72.0,PH002234D/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+85,85.0,84.0,PH002321K/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Cheek,1.0,0.0,Absent,subtype: no special type,
+86,86.0,80.0,PH002406G/19,Female,,,,BCC,,Clark Level 4,Ear,1.0,1.0,Absent,unknown,
+87,87.0,85.0,PH002421P/20,Male,,,,BCC,,,Ear,,,Absent,Nodular,Low
+88,88.0,89.0,PH002424T/20,Female,,,,BCC,,,Cheek,0.0,1.0,Absent,Nodular,Low
+89,89.0,91.0,PH002430J/21,Male,,>6mm,Present,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+90,90.0,78.0,PH002446F/20,,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+91,91.0,67.0,PH002503J/19,Female,,,,BCC,,Clark Level 3,Eyelid,1.0,1.0,Absent,unknown,
+92,92.0,73.0,PH002519X/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Present,unknown,
+93,93.0,85.0,PH002524B/21,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+94,94.0,25.0,PH002543T/19,Male,,,Absent,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+95,95.0,66.0,PH002544K/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+96,96.0,69.0,PH002548B/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+97,97.0,78.0,PH002622F/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+98,98.0,86.0,PH002627J/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+99,99.0,87.0,PH002638M/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+100,100.0,81.0,PH002655D/18,Female,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 4,Neck,1.0,1.0,Absent,subtype: no special type,
+101,101.0,81.0,PH002662J/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+102,102.0,89.0,PH002668L/18,Female,,,,BCC,,Clark Level 5,Lip,1.0,1.0,Absent,unknown,
+103,103.0,88.0,PH002671L/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+104,104.0,82.0,PH002674J/18,Male,,,,BCC,,Clark Level 5,,0.0,0.0,Absent,unknown,
+105,105.0,90.0,PH002675V/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Absent,unknown,
+106,106.0,62.0,PH002676E/19,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+107,107.0,82.0,PH002677R/18,Male,,,Absent,melanoma,,Clark Level 2,Cheek,0.0,1.0,Absent,unknown,
+108,108.0,82.0,PH002680P/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodulocystic,Low
+109,109.0,82.0,PH002682C/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+110,110.0,88.0,PH002682L/19,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+111,111.0,90.0,PH002683S/19,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+112,112.0,54.0,PH002683T/20,Male,20-40mm,>6mm,,BCC,,Clark Level 5,Neck,1.0,1.0,Absent,unknown,
+113,113.0,85.0,PH002687V/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+114,114.0,75.0,PH002700M/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+115,115.0,69.0,PH002711K/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+116,116.0,77.0,PH002712J/20,Female,,,,BCC,,,Lip,0.0,1.0,Absent,Superficial/Nodular,Low
+117,117.0,78.0,PH002713Q/21,Male,,,Absent,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+118,118.0,64.0,PH002722H/21,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+119,119.0,92.0,PH002723Y/21,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+120,120.0,83.0,PH002735X/18,Male,,,Absent,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,subtype: no special type,
+121,121.0,70.0,PH002736D/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+122,122.0,49.0,PH002739G/18,Male,,,Absent,SCC,Well Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+123,123.0,77.0,PH002822G/21,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+124,124.0,75.0,PH002823Z/19,Male,,,Absent,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+125,125.0,73.0,PH002824N/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Present,subtype: no special type,
+126,126.0,84.0,PH002824N/21,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+127,127.0,88.0,PH002825Q/19,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+128,128.0,88.0,PH002827H/21,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+129,129.0,84.0,PH002828Y/21,Male,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+130,130.0,87.0,PH002830R/21,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+131,131.0,46.0,PH002917D/21,Female,,,,BCC,,,Nose,1.0,1.0,Absent,unknown,
+132,132.0,71.0,PH002955J/21,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+133,133.0,81.0,PH002999C/21,Female,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+134,134.0,77.0,PH003119S/21,Male,,,,BCC,,,Forehead,0.0,1.0,Present,Nodular,Low
+135,135.0,74.0,PH003144V/21,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+136,136.0,86.0,PH003171X/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+137,137.0,77.0,PH003177Q/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Absent,unknown,
+138,138.0,56.0,PH003184L/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+139,139.0,91.0,PH003191J/20,Male,,,,BCC,,,Cheek,0.0,1.0,Absent,Nodulocystic,Low
+140,140.0,75.0,PH003210Y/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+141,141.0,92.0,PH003216K/20,Male,,,,BCC,,,Cheek,0.0,0.0,Absent,Nodular,Low
+142,142.0,83.0,PH003219V/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+143,143.0,85.0,PH003221F/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+144,144.0,50.0,PH003274E/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+145,145.0,80.0,PH003401S/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,subtype: no special type,
+146,146.0,58.0,PH003475H/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+147,147.0,53.0,PH003514Y/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+148,148.0,79.0,PH003516L/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+149,149.0,86.0,PH003534D/20,Male,,,,BCC,,,Temple,1.0,1.0,Present,unknown,
+150,150.0,90.0,PH003571R/19,Female,,,,BCC,,Clark Level 3,,1.0,0.0,Absent,unknown,
+151,151.0,86.0,PH003573L/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+152,152.0,64.0,PH003610X/21,Female,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+153,153.0,62.0,PH003644G/19,Male,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Absent,unknown,
+154,154.0,87.0,PH003658J/20,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+155,155.0,87.0,PH003731Y/20,Female,,,,BCC,,,Cheek,0.0,1.0,Absent,Superficial,Low
+156,156.0,84.0,PH003732P/20,Male,,,Absent,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+157,157.0,100.0,PH003743B/19,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,,Absent,subtype: no special type,
+158,158.0,80.0,PH003811F/21,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+159,159.0,60.0,PH003969A/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+160,160.0,87.0,PH003971L/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+161,161.0,85.0,PH003973Z/19,Male,,,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+162,162.0,79.0,PH003975V/18,Female,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+163,163.0,90.0,PH004025R/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+164,164.0,73.0,PH004033M/21,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 4,Ear,1.0,0.0,Absent,unknown,
+165,165.0,82.0,PH004124N/18,Female,,>4mm,Absent,SCC,Well Differentiated,Clark Level 5,Forehead,1.0,0.0,Absent,subtype: no special type,
+166,166.0,80.0,PH004178X/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,0.0,0.0,Present,subtype: no special type,
+167,167.0,68.0,PH004213N/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+168,168.0,83.0,PH004266F/21,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Superficial/Nodular,Low
+169,169.0,71.0,PH004278F/21,Male,,,,BCC,,,Nose,1.0,1.0,Present,Nodular,Low
+170,170.0,71.0,PH004282J/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+171,171.0,86.0,PH004283Q/21,Male,,>6mm,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,Nodular,Low
+172,172.0,90.0,PH004352V/20,Female,,,,BCC,,,Eyebrow,1.0,1.0,Absent,unknown,
+173,173.0,75.0,PH004353B/20,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+174,174.0,89.0,PH004356D/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,unknown,
+175,175.0,75.0,PH004369L/20,Male,,,,BCC,,,Lip,1.0,1.0,Absent,unknown,
+176,176.0,67.0,PH004383C/20,Female,,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+177,177.0,83.0,PH004400G/21,Male,,>6mm,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,Nodular,Low
+178,178.0,87.0,PH004402Q/21,Female,,,,BCC,,,Eyebrow,1.0,1.0,Absent,Nodular,Low
+179,179.0,61.0,PH004413N/21,Male,,,,BCC,,,Cheek,0.0,0.0,Absent,Nodular,Low
+180,180.0,78.0,PH004438L/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+181,181.0,89.0,PH004496W/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+182,182.0,82.0,PH004580D/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+183,183.0,90.0,PH004581L/18,Female,,,,BCC,,Clark Level 5,Cheek,0.0,1.0,Present,unknown,
+184,184.0,68.0,PH004736M/21,Female,,,,BCC,,,,0.0,0.0,Present,unknown,
+185,185.0,82.0,PH004751E/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+186,186.0,88.0,PH004767S/20,Male,,,Absent,SCC,Poorly Differentiated,,Lip,1.0,1.0,Absent,Nodular,Low
+187,187.0,82.0,PH004799H/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+188,188.0,85.0,PH004800V/20,Female,,,,BCC,,,Chin,1.0,1.0,Absent,Nodular,Low
+189,189.0,74.0,PH004816P/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+190,190.0,91.0,PH004818F/19,Male,,,,BCC,,Clark Level 5,Temple,0.0,0.0,Absent,unknown,
+191,191.0,82.0,PH004841Z/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+192,192.0,77.0,PH004858W/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+193,193.0,71.0,PH004863G/19,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+194,194.0,80.0,PH004864M/20,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+195,195.0,76.0,PH004865N/19,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Present,unknown,
+196,196.0,85.0,PH004872F/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+197,197.0,81.0,PH004890Q/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+198,198.0,83.0,PH004893W/20,Female,,>4-6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,,0.0,Absent,subtype: no special type,
+199,199.0,79.0,PH004894P/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+200,200.0,50.0,PH004951W/18,Male,,,Absent,melanoma,,Clark Level 5,Ear,1.0,,Absent,Nodular,
+201,201.0,86.0,PH004981Z/18,Male,,>4mm,Present,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,0.0,Present,subtype: no special type,
+202,202.0,74.0,PH005041M/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,unknown,
+203,203.0,60.0,PH005066Q/19,Female,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+204,204.0,72.0,PH005067B/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+205,205.0,75.0,PH005102Z/19,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+206,206.0,87.0,PH005155S/21,Male,,,,BCC,,,Ear,1.0,,Present,Nodular,Low
+207,207.0,84.0,PH005178L/21,Male,,>2-4mm,Present,SCC,Moderately Differentiated,,,1.0,0.0,Present,subtype: no special type,
+208,208.0,71.0,PH005181Z/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+209,209.0,95.0,PH005305V/18,Female,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Absent,unknown,
+210,210.0,57.0,PH005306B/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+211,211.0,92.0,PH005332S/21,Male,,>6mm,Present,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,0.0,Present,subtype: no special type,
+212,212.0,89.0,PH005378F/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+213,213.0,70.0,PH005396M/21,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+214,214.0,41.0,PH005456W/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+215,215.0,74.0,PH005490N/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+216,216.0,82.0,PH005491Q/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+217,217.0,83.0,PH005492H/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+218,218.0,82.0,PH005533Q/18,Male,,,,BCC,,Clark Level 3,,0.0,1.0,Absent,unknown,
+219,219.0,76.0,PH005562Y/21,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+220,220.0,84.0,PH005571N/21,Male,,,,BCC,,,Nose,1.0,1.0,Present,infiltrative,high
+221,221.0,85.0,PH005635G/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,,,1.0,0.0,Absent,unknown,
+222,222.0,86.0,PH005691Y/20,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+223,223.0,81.0,PH005697K/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+224,224.0,81.0,PH005708S/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Forehead,1.0,1.0,Absent,subtype: no special type,
+225,225.0,81.0,PH005717X/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+226,226.0,61.0,PH005735H/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Present,unknown,
+227,227.0,61.0,PH005736X/20,Female,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+228,228.0,88.0,PH005739S/20,Male,,,,BCC,,,Cheek,0.0,1.0,Absent,Nodular,Low
+229,229.0,86.0,PH005741C/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+230,230.0,74.0,PH005758B/20,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+231,231.0,58.0,PH005766G/21,Male,,,,BCC,,Clark Level 4,,1.0,1.0,Absent,unknown,
+232,232.0,75.0,PH005776L/21,Male,,>6mm,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+233,233.0,84.0,PH005817Z/21,Male,,,,BCC,,,Temple,1.0,1.0,Present,unknown,
+234,234.0,94.0,PH005892P/21,Male,,,Absent,SCC,Poorly Differentiated,,Neck,1.0,1.0,Absent,Nodular,Low
+235,235.0,62.0,PH006046T/20,Male,,,,BCC,,,Cheek,,,Absent,Superficial/Nodular,Low
+236,236.0,83.0,PH006050Q/20,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+237,237.0,71.0,PH006058T/20,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,unknown,
+238,238.0,96.0,PH006061N/20,Male,<20mm,,,BCC,,Clark Level 4,Temple,1.0,1.0,Absent,Nodular,Low
+239,239.0,73.0,PH006064Y/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+240,240.0,81.0,PH006065W/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+241,241.0,62.0,PH006067A/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+242,242.0,67.0,PH006091Y/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+243,243.0,82.0,PH006110C/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+244,244.0,94.0,PH006128G/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+245,245.0,84.0,PH006210H/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+246,246.0,63.0,PH006283G/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+247,247.0,79.0,PH006367Q/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+248,248.0,77.0,PH006385D/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+249,249.0,68.0,PH006401L/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+250,250.0,83.0,PH006422Z/18,Male,,>4mm,Present,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+251,251.0,72.0,PH006426H/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+252,252.0,74.0,PH006435N/18,Female,,,,BCC,,Clark Level 3,Nose,0.0,1.0,Absent,unknown,
+253,253.0,76.0,PH006442D/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+254,254.0,80.0,PH006447N/20,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+255,255.0,83.0,PH006451V/20,Female,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+256,256.0,77.0,PH006459N/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+257,257.0,86.0,PH006552G/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+258,258.0,79.0,PH006610R/19,Male,,,,BCC,,Clark Level 3,Shoulder,1.0,1.0,Absent,unknown,
+259,259.0,76.0,PH006618E/19,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+260,260.0,82.0,PH006630A/18,Male,,,,BCC,,Clark Level 3,Ear,0.0,1.0,Absent,unknown,
+261,261.0,60.0,PH006640W/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+262,262.0,98.0,PH006717L/19,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+263,263.0,79.0,PH006733R/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+264,264.0,61.0,PH006746A/20,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+265,265.0,90.0,PH006748C/20,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 3,Nose,1.0,1.0,Absent,subtype: no special type,
+266,266.0,87.0,PH006834M/19,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+267,267.0,75.0,PH006835J/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+268,268.0,88.0,PH006837B/19,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+269,269.0,82.0,PH006882N/21,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,0.0,Present,subtype: no special type,
+270,270.0,83.0,PH006902L/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+271,271.0,72.0,PH006912X/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,0.0,1.0,Absent,subtype: no special type,
+272,272.0,87.0,PH006924Z/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Present,unknown,
+273,273.0,72.0,PH006991Y/18,Female,,,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+274,274.0,88.0,PH007020Z/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 4,,1.0,1.0,Absent,subtype: no special type,
+275,275.0,62.0,PH007031F/21,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+276,276.0,88.0,PH007096E/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 5,Cheek,1.0,1.0,Present,unknown,
+277,277.0,61.0,PH007115A/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+278,278.0,71.0,PH007136C/19,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Present,unknown,
+279,279.0,49.0,PH007137T/19,Female,,,,BCC,,Clark Level 4,Nose,1.0,,Absent,unknown,
+280,280.0,78.0,PH007368X/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+281,281.0,72.0,PH007385S/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+282,282.0,84.0,PH007385T/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+283,283.0,83.0,PH007391J/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+284,284.0,68.0,PH007395D/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+285,285.0,68.0,PH007406Y/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+286,286.0,73.0,PH007406Y/21,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+287,287.0,69.0,PH007412G/21,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+288,288.0,90.0,PH007414N/21,Female,,>4-6mm,Present,SCC,Poorly Differentiated,,Cheek,1.0,1.0,Absent,subtype: no special type,
+289,289.0,81.0,PH007454S/21,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+290,290.0,87.0,PH007485W/18,Male,,,Absent,melanoma,,Clark Level 4,Neck,1.0,1.0,Absent,Nodular,
+291,291.0,82.0,PH007513X/21,Male,,>6mm,,BCC,,Clark Level 5,,1.0,0.0,Absent,Nodular,Low
+292,292.0,62.0,PH007648P/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+293,293.0,72.0,PH007654N/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Absent,subtype: no special type,
+294,294.0,85.0,PH007655K/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+295,295.0,67.0,PH007658Y/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+296,296.0,85.0,PH007663S/20,Male,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+297,297.0,77.0,PH007706M/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+298,298.0,80.0,PH007743L/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+299,299.0,84.0,PH007814R/20,Male,,>4mm,Present,SCC,Poorly Differentiated,,,1.0,0.0,Absent,subtype: no special type,
+300,300.0,67.0,PH007847W/19,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+301,301.0,54.0,PH007962Y/20,Female,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+302,302.0,71.0,PH008007F/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+303,303.0,81.0,PH008011Z/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+304,304.0,81.0,PH008012Q/19,Male,,,Absent,BCC,,Clark Level 4,Forehead,1.0,1.0,Absent,Nodular,
+305,305.0,82.0,PH008054J/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+306,306.0,91.0,PH008055V/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+307,307.0,80.0,PH008062C/20,Male,,,Absent,melanoma,,,Ear,0.0,0.0,Absent,unknown,
+308,308.0,50.0,PH008080M/19,Male,,,,BCC,,Clark Level 5,,0.0,0.0,Absent,unknown,
+309,309.0,89.0,PH008084X/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,0.0,Absent,unknown,
+310,310.0,70.0,PH008086L/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+311,311.0,91.0,PH008087S/19,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+312,312.0,80.0,PH008089Z/19,Female,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+313,313.0,59.0,PH008090T/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+314,314.0,82.0,PH008093V/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Present,unknown,
+315,315.0,80.0,PH008174V/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+316,316.0,80.0,PH008182T/19,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Present,subtype: no special type,
+317,317.0,73.0,PH008230K/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+318,318.0,55.0,PH008282Y/20,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+319,319.0,60.0,PH008291N/20,Female,,,,BCC,,,Shoulder,0.0,1.0,Absent,Nodular,Low
+320,320.0,71.0,PH008292E/20,Male,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+321,321.0,82.0,PH008375V/21,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+322,322.0,81.0,PH008424F/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,subtype: no special type,
+323,323.0,60.0,PH008436F/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+324,324.0,87.0,PH008626N/20,Male,,,,BCC,,,,1.0,,Uncertain,Nodular,Low
+325,325.0,89.0,PH008703V/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+326,326.0,79.0,PH008789L/19,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+327,327.0,88.0,PH008793Q/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+328,328.0,73.0,PH008795J/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+329,329.0,67.0,PH008799X/19,Male,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Absent,unknown,
+330,330.0,87.0,PH008809B/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+331,331.0,84.0,PH008809B/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+332,332.0,72.0,PH008812P/18,Male,,>4mm,,SCC,Moderately Differentiated,,Lip,1.0,1.0,Absent,unknown,
+333,333.0,63.0,PH008856A/20,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+334,334.0,95.0,PH008912K/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+335,335.0,85.0,PH009032X/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+336,336.0,90.0,PH009068X/21,Female,,,,BCC,,Clark Level 4,,1.0,1.0,Uncertain,unknown,
+337,337.0,80.0,PH009105P/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Present,unknown,
+338,338.0,76.0,PH009120Q/18,Male,,,Absent,melanoma,,Clark Level 4,Neck,1.0,1.0,Absent,unknown,
+339,339.0,70.0,PH009148P/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,0.0,0.0,Present,subtype: no special type,
+340,340.0,62.0,PH009182E/19,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+341,341.0,82.0,PH009186P/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+342,342.0,85.0,PH009188F/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+343,343.0,82.0,PH009190S/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+344,344.0,97.0,PH009196X/18,Female,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+345,345.0,86.0,PH009206G/19,Female,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+346,346.0,79.0,PH009208N/19,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+347,347.0,88.0,PH009219Z/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,0.0,0.0,Absent,subtype: no special type,
+348,348.0,70.0,PH009269A/20,Female,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+349,349.0,86.0,PH009333M/21,Female,,,Absent,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,Nodular,
+350,350.0,68.0,PH009391T/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+351,351.0,70.0,PH009394Q/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+352,352.0,89.0,PH009410B/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Temple,1.0,1.0,Absent,Nodular,Low
+353,353.0,60.0,PH009414A/19,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+354,354.0,91.0,PH009414S/20,Female,,,Absent,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+355,355.0,78.0,PH009443W/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+356,356.0,79.0,PH009484G/21,Male,,,Present,BCC,,Clark Level 5,,0.0,0.0,Present,Nodular,Low
+357,357.0,82.0,PH009487Q/21,Female,,>6mm,Absent,BCC,,Clark Level 3,Eyebrow,1.0,1.0,Present,subtype: no special type,
+358,358.0,85.0,PH009521V/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+359,359.0,78.0,PH009525P/21,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+360,360.0,71.0,PH009627H/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Absent,subtype: no special type,
+361,361.0,89.0,PH009643D/19,Male,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Present,unknown,
+362,362.0,79.0,PH009644C/18,Male,,,,BCC,,Clark Level 5,Chin,1.0,1.0,Absent,unknown,
+363,363.0,79.0,PH009656C/20,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+364,364.0,88.0,PH009700M/19,Male,,,,BCC,,Clark Level 5,Lip,1.0,1.0,Absent,unknown,
+365,365.0,67.0,PH009702B/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+366,366.0,73.0,PH009716A/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+367,367.0,82.0,PH009751G/20,Male,,>6mm,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+368,368.0,57.0,PH009753Q/20,Male,,,,BCC,,,Shoulder,1.0,,,Superficial,Low
+369,369.0,82.0,PH009759A/20,Female,,,,BCC,,,Shoulder,1.0,1.0,Absent,Nodular,Low
+370,370.0,67.0,PH009772L/20,Male,,,,BCC,,,Nose,0.0,0.0,Absent,Superficial/Nodular,Low
+371,371.0,69.0,PH009776N/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+372,372.0,68.0,PH009780V/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+373,373.0,63.0,PH009793R/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+374,374.0,79.0,PH009795W/19,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+375,375.0,90.0,PH009911V/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+376,376.0,87.0,PH009913X/18,Male,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,unknown,
+377,377.0,91.0,PH009929H/20,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+378,378.0,81.0,PH009942E/19,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+379,379.0,73.0,PH010036J/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Present,subtype: no special type,
+380,380.0,92.0,PH010102W/20,Female,,,,BCC,,,Nostril,1.0,1.0,Present,Nodular,Low
+381,381.0,85.0,PH010218J/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+382,382.0,92.0,PH010265B/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+383,383.0,67.0,PH010331Q/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+384,384.0,76.0,PH010332H/18,Male,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Absent,unknown,
+385,385.0,77.0,PH010353N/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+386,386.0,94.0,PH010367E/18,Female,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Eyebrow,1.0,1.0,Absent,subtype: no special type,
+387,387.0,63.0,PH010374S/18,Male,,,,BCC,,Clark Level 3,Chin,1.0,1.0,Absent,unknown,
+388,388.0,84.0,PH010482K/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Present,unknown,
+389,389.0,90.0,PH010494K/20,Female,,>6mm,,BCC,,Clark Level 5,,1.0,0.0,Present,Superficial,Low
+390,390.0,76.0,PH010495M/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+391,391.0,81.0,PH010497V/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+392,392.0,71.0,PH010503D/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+393,393.0,57.0,PH010511J/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+394,394.0,89.0,PH010918Q/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,0.0,Absent,unknown,
+395,395.0,77.0,PH011013Q/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Present,subtype: no special type,
+396,396.0,92.0,PH011165H/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+397,397.0,85.0,PH011175V/20,Male,,,,BCC,,,,1.0,1.0,Uncertain,Nodular,Low
+398,398.0,56.0,PH011188E/19,Male,,,Absent,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+399,399.0,56.0,PH011229L/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+400,400.0,85.0,PH011233K/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+401,401.0,86.0,PH011237B/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+402,402.0,75.0,PH011241P/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+403,403.0,56.0,PH011259H/18,Male,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+404,404.0,75.0,PH011268N/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+405,405.0,75.0,PH011327E/20,Male,,<2mm,,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+406,406.0,91.0,PH011328H/20,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+407,407.0,71.0,PH011378R/20,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Absent,subtype: no special type,
+408,408.0,86.0,PH011460Y/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+409,409.0,79.0,PH011514C/20,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,,1.0,0.0,Absent,subtype: no special type,
+410,410.0,38.0,PH011557C/18,Male,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,unknown,
+411,411.0,58.0,PH011564Y/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+412,412.0,84.0,PH011565W/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+413,413.0,75.0,PH011566P/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+414,414.0,56.0,PH011567A/18,Female,,,,BCC,,Clark Level 3,Chin,1.0,1.0,Absent,unknown,
+415,415.0,78.0,PH011568F/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+416,416.0,78.0,PH011569C/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+417,417.0,79.0,PH011570S/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+418,418.0,77.0,PH011697L/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+419,419.0,94.0,PH011709P/18,Male,,>4mm,Absent,SCC,Well Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+420,420.0,81.0,PH011737H/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+421,421.0,74.0,PH011748E/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,infiltrative,high
+422,422.0,77.0,PH011842Q/19,Male,,,Absent,BCC,,Clark Level 2,Cheek,1.0,1.0,Absent,unknown,
+423,423.0,66.0,PH011878Q/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+424,424.0,84.0,PH011912S/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+425,425.0,84.0,PH012023L/19,Male,,>4mm,Present,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+426,426.0,82.0,PH012031Y/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Superficial/Nodular,Low
+427,427.0,75.0,PH012035C/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+428,428.0,76.0,PH012062N/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+429,429.0,73.0,PH012069A/20,Male,,>6mm,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+430,430.0,87.0,PH012110A/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,0.0,1.0,Present,unknown,
+431,431.0,90.0,PH012118R/19,Male,,,Present,melanoma,,Clark Level 4,Ear,,,Absent,Nodular,
+432,432.0,79.0,PH012127F/18,Male,,,Absent,melanoma,,Clark Level 5,Neck,1.0,1.0,Absent,Nodular,
+433,433.0,78.0,PH012128C/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+434,434.0,70.0,PH012145E/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+435,435.0,80.0,PH012146J/19,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+436,436.0,80.0,PH012151D/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,unknown,
+437,437.0,90.0,PH012169E/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+438,438.0,73.0,PH012193N/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+439,439.0,73.0,PH012228J/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+440,440.0,44.0,PH012239M/20,Female,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+441,441.0,55.0,PH012240N/20,Female,,,,BCC,,,Cheek,0.0,0.0,Absent,Superficial/Nodular,Low
+442,442.0,73.0,PH012244W/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+443,443.0,85.0,PH012251C/19,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+444,444.0,76.0,PH012302Q/20,Female,,,,BCC,,,Nostril,1.0,1.0,Absent,Superficial/Nodular,Low
+445,445.0,77.0,PH012303E/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Ear,1.0,1.0,Present,subtype: no special type,
+446,446.0,96.0,PH012307P/20,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+447,447.0,85.0,PH012311S/20,Male,,,Present,BCC,,,Neck,1.0,1.0,Present,unknown,
+448,448.0,71.0,PH012339X/19,Female,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+449,449.0,93.0,PH012345Q/18,Female,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+450,450.0,75.0,PH012385R/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+451,451.0,89.0,PH012457L/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+452,452.0,84.0,PH012459G/20,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Present,subtype: no special type,
+453,453.0,80.0,PH012460C/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+454,454.0,89.0,PH012601A/20,Male,,,,melanoma,,,,1.0,1.0,Absent,Nodular,Low
+455,455.0,85.0,PH012608B/20,Female,,,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+456,456.0,77.0,PH012613F/20,Female,,,,BCC,,,Cheek,1.0,1.0,Present,Nodular,Low
+457,457.0,72.0,PH012619V/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+458,458.0,83.0,PH012622T/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+459,459.0,76.0,PH012691X/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+460,460.0,62.0,PH012721H/20,Male,,,,BCC,,,Forehead,1.0,0.0,Present,unknown,
+461,461.0,88.0,PH012723P/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 4,,1.0,1.0,Absent,subtype: no special type,
+462,462.0,78.0,PH012846N/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+463,463.0,80.0,PH012849H/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+464,464.0,85.0,PH012866L/20,Male,,>6mm,Present,SCC,Moderately Differentiated,,Cheek,1.0,0.0,Absent,subtype: no special type,
+465,465.0,66.0,PH012867S/20,Male,,>6mm,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,Nodular,Low
+466,466.0,73.0,PH012915W/19,Male,,,Absent,melanoma,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+467,467.0,87.0,PH012996F/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+468,468.0,90.0,PH013018H/20,Female,,>6mm,Present,SCC,Poorly Differentiated,Clark Level 5,,,,Absent,subtype: no special type,
+469,469.0,60.0,PH013019Y/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+470,470.0,82.0,PH013020S/20,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Neck,1.0,1.0,Present,subtype: no special type,
+471,471.0,56.0,PH013029A/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+472,472.0,82.0,PH013033Z/18,Female,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,unknown,
+473,473.0,78.0,PH013034N/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Present,unknown,
+474,474.0,69.0,PH013070T/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Eyebrow,1.0,0.0,Absent,subtype: no special type,
+475,475.0,60.0,PH013087R/18,Male,,,,BCC,,Clark Level 3,Eyebrow,1.0,1.0,Absent,unknown,
+476,476.0,65.0,PH013102X/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+477,477.0,35.0,PH013130J/20,Female,,,Absent,melanoma,,Clark Level 5,Forehead,1.0,0.0,Absent,Nodular,
+478,478.0,86.0,PH013223T/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+479,479.0,91.0,PH013224K/19,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Present,unknown,
+480,480.0,81.0,PH013258C/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+481,481.0,80.0,PH013259T/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+482,482.0,88.0,PH013407R/20,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,0.0,,Absent,Superficial/Nodular,Low
+483,483.0,79.0,PH013408X/20,Male,,>6mm,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+484,484.0,84.0,PH013423J/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 4,Ear,1.0,1.0,Absent,subtype: no special type,
+485,485.0,73.0,PH013443L/19,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+486,486.0,71.0,PH013445K/20,Female,,,Absent,melanoma,,Clark Level 3,,1.0,1.0,Absent,Superficial,
+487,487.0,70.0,PH013446Z/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+488,488.0,81.0,PH013450H/18,Male,,>4mm,Present,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,0.0,Present,subtype: no special type,
+489,489.0,74.0,PH013554J/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Present,unknown,
+490,490.0,73.0,PH013582D/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Present,subtype: no special type,
+491,491.0,79.0,PH013583L/20,Male,,,,BCC,,,Ear,1.0,1.0,Present,Nodular,Low
+492,492.0,74.0,PH013583P/19,Female,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+493,493.0,70.0,PH013646E/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+494,494.0,82.0,PH013647H/18,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,0.0,Absent,subtype: no special type,
+495,495.0,91.0,PH013797K/18,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+496,496.0,73.0,PH013798M/18,Male,,>4mm,Present,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,,Present,subtype: no special type,
+497,497.0,55.0,PH013808A/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,,Absent,unknown,
+498,498.0,41.0,PH013809G/20,Female,,,,BCC,,,Ear,,,,infiltrative,high
+499,499.0,50.0,PH013831K/20,Female,,,Absent,melanoma,,Clark Level 2,Cheek,1.0,1.0,Absent,unknown,
+500,500.0,84.0,PH013942R/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+501,501.0,73.0,PH013944F/20,Female,,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+502,502.0,74.0,PH013945C/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+503,503.0,75.0,PH013978P/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+504,504.0,98.0,PH013985Q/20,Male,,>4-6mm,Present,SCC,Undifferentiated,,,0.0,0.0,Present,subtype: no special type,
+505,505.0,83.0,PH013996N/20,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Cheek,0.0,1.0,Absent,subtype: no special type,
+506,506.0,83.0,PH014021J/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,,Present,unknown,
+507,507.0,62.0,PH014064C/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+508,508.0,86.0,PH014172T/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+509,509.0,66.0,PH014262P/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+510,510.0,67.0,PH014264D/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+511,511.0,83.0,PH014275X/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+512,512.0,55.0,PH014300W/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+513,513.0,80.0,PH014329R/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+514,514.0,80.0,PH014341J/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,,,Absent,subtype: no special type,
+515,515.0,86.0,PH014342B/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+516,516.0,94.0,PH014375M/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+517,517.0,61.0,PH014383F/19,Female,,,,BCC,,Clark Level 3,Eyelid,1.0,0.0,Absent,unknown,
+518,518.0,98.0,PH014406X/19,Male,,,Absent,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+519,519.0,78.0,PH014407D/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+520,520.0,91.0,PH014412K/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+521,521.0,82.0,PH014621B/20,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+522,522.0,76.0,PH014661A/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+523,523.0,86.0,PH014778F/20,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+524,524.0,67.0,PH014779C/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+525,525.0,83.0,PH014839M/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+526,526.0,85.0,PH014917Y/20,Male,,,,BCC,,Clark Level 5,Temple,1.0,0.0,Absent,Superficial/Nodular,Low
+527,527.0,92.0,PH015004F/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+528,528.0,80.0,PH015006T/18,Male,,,,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+529,529.0,80.0,PH015007K/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+530,530.0,56.0,PH015054J/19,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+531,531.0,80.0,PH015066H/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+532,532.0,73.0,PH015080E/19,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Absent,unknown,
+533,533.0,90.0,PH015081H/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Neck,1.0,1.0,Absent,subtype: no special type,
+534,534.0,83.0,PH015170M/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+535,535.0,75.0,PH015369N/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+536,536.0,89.0,PH015420R/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+537,537.0,78.0,PH015487M/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+538,538.0,72.0,PH015488J/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+539,539.0,87.0,PH015513Z/19,Male,,,,BCC,,Clark Level 3,Nose,0.0,0.0,Present,unknown,
+540,540.0,89.0,PH015550W/20,Female,,,,BCC,,,Forehead,0.0,1.0,Present,Nodular,Low
+541,541.0,76.0,PH015554T/20,Male,,>6mm,Absent,SCC,Moderately Differentiated,,Ear,1.0,1.0,Present,subtype: no special type,
+542,542.0,61.0,PH015555K/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Superficial/Nodular,Low
+543,543.0,77.0,PH015568Z/19,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+544,544.0,61.0,PH015705P/20,Male,,,,BCC,,,Cheek,1.0,0.0,Absent,Nodular,Low
+545,545.0,100.0,PH015807H/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+546,546.0,76.0,PH015899B/18,Female,,,Absent,BCC,,Clark Level 5,,0.0,1.0,Absent,unknown,
+547,547.0,53.0,PH015913B/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+548,548.0,89.0,PH015914R/18,Female,,,,BCC,,Clark Level 3,Ear,1.0,,Absent,unknown,
+549,549.0,66.0,PH015941G/19,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+550,550.0,85.0,PH015984X/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+551,551.0,62.0,PH015997D/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+552,552.0,96.0,PH016111M/18,Female,,,,melanoma,,Clark Level 3,Cheek,0.0,1.0,Absent,unknown,
+553,553.0,72.0,PH016141K/18,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Nose,1.0,0.0,Absent,subtype: no special type,
+554,554.0,72.0,PH016150D/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,unknown,
+555,555.0,79.0,PH016156E/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+556,556.0,71.0,PH016241E/19,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+557,557.0,87.0,PH016244P/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+558,558.0,92.0,PH016275V/20,Male,,>6mm,Present,SCC,Poorly Differentiated,,Ear,0.0,0.0,Present,subtype: no special type,
+559,559.0,81.0,PH016278X/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+560,560.0,77.0,PH016278Y/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+561,561.0,87.0,PH016281X/19,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+562,562.0,73.0,PH016308F/19,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+563,563.0,69.0,PH016362F/18,Female,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+564,564.0,81.0,PH016384P/20,Female,,,,BCC,,,Temple,1.0,0.0,Absent,Nodular,Low
+565,565.0,85.0,PH016385A/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+566,566.0,83.0,PH016418V/18,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+567,567.0,81.0,PH016502W/20,Male,,,,BCC,,Clark Level 3,Shoulder,1.0,1.0,Absent,Nodular,Low
+568,568.0,77.0,PH016556V/19,Male,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+569,569.0,86.0,PH016631S/20,Male,,,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Present,subtype: no special type,
+570,570.0,79.0,PH016632Z/20,Female,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+571,571.0,90.0,PH016663X/20,Male,,,,BCC,,,Chin,1.0,1.0,Absent,Nodular,Low
+572,572.0,90.0,PH016695N/19,Male,,,,SCC,Poorly Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+573,573.0,76.0,PH016707N/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+574,574.0,54.0,PH016708Q/20,Female,,,,BCC,,,Cheek,1.0,0.0,Absent,Nodular,Low
+575,575.0,70.0,PH016769D/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Superficial/Nodular,Low
+576,576.0,69.0,PH016774K/20,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+577,577.0,81.0,PH016775M/20,Male,,,Present,SCC,Moderately Differentiated,Clark Level 5,Eyebrow,0.0,0.0,Present,subtype: no special type,
+578,578.0,51.0,PH016799M/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+579,579.0,84.0,PH016825Y/19,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+580,580.0,52.0,PH016956A/20,Male,,,Absent,melanoma,,,,1.0,1.0,Absent,unknown,
+581,581.0,89.0,PH017000S/19,Female,,>4mm,Absent,BCC,,,Neck,1.0,1.0,Absent,unknown,
+582,582.0,86.0,PH017079K/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+583,583.0,47.0,PH017220S/19,Female,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+584,584.0,88.0,PH017224E/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+585,585.0,84.0,PH017227W/19,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Tongue,1.0,1.0,Absent,subtype: no special type,
+586,586.0,76.0,PH017252A/20,Male,,,,BCC,,,Nose,0.0,0.0,Absent,infiltrative,high
+587,587.0,90.0,PH017253F/20,Male,,,,BCC,,,Ear,1.0,0.0,Absent,Nodular,Low
+588,588.0,68.0,PH017268K/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+589,589.0,70.0,PH017270T/19,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+590,590.0,82.0,PH017272J/19,Female,,,Absent,BCC,,Clark Level 5,Temple,0.0,0.0,Absent,unknown,
+591,591.0,86.0,PH017273V/19,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+592,592.0,82.0,PH017276X/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+593,593.0,81.0,PH017284J/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+594,594.0,94.0,PH017376E/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+595,595.0,76.0,PH017377H/20,Female,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+596,596.0,72.0,PH017483B/20,Female,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+597,597.0,82.0,PH017683B/19,Female,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+598,598.0,51.0,PH017798H/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+599,599.0,85.0,PH017841N/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+600,600.0,79.0,PH017894X/20,Male,,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+601,601.0,78.0,PH017931S/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+602,602.0,77.0,PH017937V/19,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+603,603.0,88.0,PH017938B/19,Female,,,Absent,BCC,,Clark Level 5,Neck,1.0,1.0,Present,unknown,
+604,604.0,91.0,PH017939P/20,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+605,605.0,79.0,PH017940X/20,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,,Forehead,1.0,0.0,Absent,subtype: no special type,
+606,606.0,66.0,PH017957T/19,Male,,,,BCC,,Clark Level 3,Ear,1.0,0.0,Absent,unknown,
+607,607.0,78.0,PH018049L/19,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+608,608.0,90.0,PH018066E/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+609,609.0,82.0,PH018076N/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+610,610.0,67.0,PH018136J/19,Male,,>4mm,Present,SCC,Poorly Differentiated,Clark Level 5,Neck,1.0,1.0,Present,subtype: no special type,
+611,611.0,74.0,PH018137V/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+612,612.0,81.0,PH018141W/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,0.0,Absent,unknown,
+613,613.0,73.0,PH018218F/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+614,614.0,89.0,PH018228K/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Present,subtype: no special type,
+615,615.0,62.0,PH018228K/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+616,616.0,72.0,PH018238C/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Absent,subtype: no special type,
+617,617.0,91.0,PH018239T/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Chin,1.0,1.0,Absent,subtype: no special type,
+618,618.0,91.0,PH018242Q/18,Female,,,,BCC,,Clark Level 3,Forehead,0.0,1.0,Absent,unknown,
+619,619.0,72.0,PH018246B/19,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial,Low
+620,620.0,34.0,PH018308W/20,Female,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,Superficial,
+621,621.0,64.0,PH018310X/20,Female,,,Absent,melanoma,,Clark Level 5,,1.0,1.0,Absent,unknown,
+622,622.0,78.0,PH018502M/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial,Low
+623,623.0,74.0,PH018518H/19,Male,,,Absent,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+624,624.0,70.0,PH018535V/18,Female,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Present,unknown,
+625,625.0,72.0,PH018557M/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+626,626.0,60.0,PH018623L/19,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+627,627.0,80.0,PH018720N/20,Female,,,,BCC,,,Cheek,0.0,1.0,Absent,Nodular,Low
+628,628.0,84.0,PH018785Y/19,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Superficial/Nodular,Low
+629,629.0,87.0,PH018973X/19,Female,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+630,630.0,97.0,PH018982V/19,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+631,631.0,78.0,PH019002A/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+632,632.0,47.0,PH019065R/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+633,633.0,87.0,PH019068L/20,Female,,,Absent,melanoma,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+634,634.0,72.0,PH019085M/20,Male,,,,BCC,,,Temple,0.0,0.0,Absent,Nodular,Low
+635,635.0,73.0,PH019094L/19,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+636,636.0,77.0,PH019113V/20,Male,,,Absent,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+637,637.0,57.0,PH019239M/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+638,638.0,95.0,PH019283C/18,Female,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+639,639.0,87.0,PH019449J/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+640,640.0,85.0,PH019456F/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,1.0,1.0,Present,subtype: no special type,
+641,641.0,85.0,PH019484N/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Present,unknown,
+642,642.0,55.0,PH019573L/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+643,643.0,55.0,PH019586S/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,subtype: no special type,
+644,644.0,71.0,PH019627W/18,Male,,,,BCC,,Clark Level 5,Ear,0.0,,Absent,unknown,
+645,645.0,84.0,PH019774S/19,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+646,646.0,72.0,PH019840R/19,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+647,647.0,92.0,PH019842C/20,Male,,>6mm,Present,SCC,Poorly Differentiated,,,1.0,0.0,Absent,subtype: no special type,
+648,648.0,81.0,PH019860E/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+649,649.0,82.0,PH020120C/20,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,,Forehead,1.0,1.0,Absent,subtype: no special type,
+650,650.0,87.0,PH020120L/19,Female,,>6mm,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+651,651.0,82.0,PH020171N/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+652,652.0,69.0,PH020239G/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+653,653.0,90.0,PH020270H/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,subtype: no special type,
+654,654.0,68.0,PH020357S/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+655,655.0,92.0,PH020385E/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+656,656.0,79.0,PH020448D/19,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Present,subtype: no special type,
+657,657.0,57.0,PH020506V/19,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+658,658.0,80.0,PH020509A/20,Male,,,,BCC,,,Shoulder,1.0,,,Superficial,Low
+659,659.0,84.0,PH020515K/19,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,Nodular,Low
+660,660.0,72.0,PH020533T/19,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+661,661.0,84.0,PH020647S/20,Male,,>6mm,Present,SCC,Poorly Differentiated,,Nose,,,Present,subtype: no special type,
+662,662.0,86.0,PH020690E/18,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+663,663.0,81.0,PH020691H/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+664,664.0,78.0,PH020760H/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+665,665.0,81.0,PH020785W/18,Male,,>4mm,Present,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+666,666.0,75.0,PH021002F/18,Male,,,Absent,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+667,667.0,85.0,PH021013A/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+668,668.0,62.0,PH021052H/20,Female,<20mm,,,BCC,,,Eyelid,0.0,0.0,Absent,Nodular,Low
+669,669.0,83.0,PH021056A/20,Male,<20mm,,,BCC,,,Cheek,1.0,1.0,Present,unknown,
+670,670.0,82.0,PH021137X/19,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 3,Forehead,1.0,1.0,,subtype: no special type,
+671,671.0,78.0,PH021170Q/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+672,672.0,91.0,PH021176F/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,,Lip,1.0,1.0,Present,subtype: no special type,
+673,673.0,66.0,PH021188F/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+674,674.0,59.0,PH021258D/19,Female,,,,BCC,,,Chin,1.0,1.0,Absent,Superficial/Nodular,Low
+675,675.0,76.0,PH021300C/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+676,676.0,77.0,PH021366Z/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+677,677.0,89.0,PH021467D/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Present,subtype: no special type,
+678,678.0,66.0,PH021469S/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+679,679.0,90.0,PH021475V/18,Female,,,,BCC,,Clark Level 3,Nose,0.0,0.0,Absent,unknown,
+680,680.0,93.0,PH021573X/19,Male,,,,BCC,,,Temple,0.0,1.0,Absent,Nodular,Low
+681,681.0,91.0,PH021575L/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+682,682.0,72.0,PH021586F/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,1.0,Present,subtype: no special type,
+683,683.0,70.0,PH021589K/20,Male,,,,BCC,,,Neck,1.0,1.0,Absent,infiltrative,high
+684,684.0,80.0,PH021593H/20,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+685,685.0,82.0,PH021601F/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+686,686.0,74.0,PH021615K/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+687,687.0,75.0,PH021625Q/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+688,688.0,79.0,PH021688W/18,Male,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Absent,unknown,
+689,689.0,81.0,PH021760D/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+690,690.0,73.0,PH021778E/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,infiltrative,high
+691,691.0,79.0,PH021790M/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+692,692.0,78.0,PH021799Z/18,Male,,,,BCC,,Clark Level 5,Ear,0.0,0.0,Present,unknown,
+693,693.0,81.0,PH021806Y/20,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+694,694.0,80.0,PH021813Z/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+695,695.0,80.0,PH021892S/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+696,696.0,68.0,PH021919N/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Present,subtype: no special type,
+697,697.0,68.0,PH021923A/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+698,698.0,71.0,PH021924G/20,Male,,,,BCC,,,Ear,1.0,1.0,Present,Nodular,Low
+699,699.0,88.0,PH021926N/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+700,700.0,78.0,PH021930V/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+701,701.0,83.0,PH021932X/20,Male,,,,BCC,,,Eyelid,,,Absent,Nodular,Low
+702,702.0,72.0,PH021946L/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Present,subtype: no special type,
+703,703.0,96.0,PH021947A/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Eyebrow,1.0,1.0,Absent,unknown,
+704,704.0,76.0,PH021950T/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+705,705.0,83.0,PH021959A/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+706,706.0,88.0,PH021973S/19,Male,,,Absent,SCC,Moderately Differentiated,,Nose,1.0,1.0,Absent,Nodular,Low
+707,707.0,76.0,PH022061V/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+708,708.0,78.0,PH022112R/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+709,709.0,89.0,PH022114D/19,Male,,>4-6mm,Absent,BCC,,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+710,710.0,87.0,PH022117G/19,Male,,,Absent,SCC,Moderately Differentiated,,Forehead,1.0,0.0,Absent,unknown,
+711,711.0,74.0,PH022127Q/19,Male,,,,BCC,,,Cheek,0.0,0.0,Absent,Nodular,Low
+712,712.0,72.0,PH022186K/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+713,713.0,70.0,PH022191R/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+714,714.0,73.0,PH022263P/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Present,unknown,
+715,715.0,88.0,PH022439D/19,Male,,,,BCC,,,Forehead,0.0,1.0,Absent,Nodular,Low
+716,716.0,75.0,PH022440P/19,Male,,,,BCC,,,Nostril,1.0,1.0,Absent,Nodular,Low
+717,717.0,77.0,PH022442C/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+718,718.0,79.0,PH022514S/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,,Uncertain,subtype: no special type,
+719,719.0,66.0,PH022524N/18,Female,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Present,unknown,
+720,720.0,78.0,PH022761Q/18,Male,,,,BCC,,Clark Level 3,Chin,1.0,1.0,Absent,unknown,
+721,721.0,86.0,PH022774H/18,Male,,,,BCC,,Clark Level 5,Ear,0.0,0.0,Uncertain,unknown,
+722,722.0,83.0,PH022853K/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+723,723.0,84.0,PH022914T/19,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+724,724.0,90.0,PH022935M/19,Female,,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+725,725.0,73.0,PH023063C/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+726,726.0,68.0,PH023105J/19,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+727,727.0,69.0,PH023144Z/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Lip,1.0,1.0,Absent,subtype: no special type,
+728,728.0,71.0,PH023148H/20,Male,,>6mm,Absent,BCC,,,Nostril,1.0,1.0,Present,unknown,
+729,729.0,81.0,PH023190A/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+730,730.0,78.0,PH023193K/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+731,731.0,90.0,PH023212M/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+732,732.0,88.0,PH023233Y/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+733,733.0,97.0,PH023238C/18,Male,,,Absent,BCC,,Clark Level 5,Neck,1.0,1.0,Absent,unknown,
+734,734.0,88.0,PH023240G/20,Male,,>4-6mm,,SCC,Moderately Differentiated,,,1.0,0.0,Present,subtype: no special type,
+735,735.0,92.0,PH023250P/19,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+736,736.0,73.0,PH023252C/19,Male,,,,BCC,,,Ear,,,Absent,unknown,Low
+737,737.0,79.0,PH023253T/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+738,738.0,75.0,PH023254K/19,Male,,,,BCC,,,,0.0,1.0,Absent,Superficial/Nodular,Low
+739,739.0,53.0,PH023290K/20,Female,,>6mm,,BCC,,Clark Level 5,,,0.0,Absent,Nodular,Low
+740,740.0,85.0,PH023295X/20,Female,,,,BCC,,,,1.0,1.0,Absent,unknown,
+741,741.0,49.0,PH023298S/20,Male,,,,BCC,,,Lip,1.0,0.0,Absent,Nodular,Low
+742,742.0,65.0,PH023300L/20,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+743,743.0,72.0,PH023354P/19,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,0.0,0.0,Present,subtype: no special type,
+744,744.0,71.0,PH023598W/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+745,745.0,75.0,PH023599P/18,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+746,746.0,75.0,PH023616C/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+747,747.0,76.0,PH023639J/20,Female,,,Absent,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+748,748.0,79.0,PH023647C/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+749,749.0,89.0,PH023702E/18,Male,,,,BCC,,Clark Level 5,Neck,1.0,1.0,Absent,unknown,
+750,750.0,71.0,PH023722H/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+751,751.0,83.0,PH023753G/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+752,752.0,85.0,PH023767N/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Present,unknown,
+753,753.0,89.0,PH023786D/20,Female,,,,BCC,,,,0.0,1.0,Absent,Superficial/Nodular,Low
+754,754.0,87.0,PH023790C/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+755,755.0,73.0,PH023797X/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,,,Absent,subtype: no special type,
+756,756.0,84.0,PH023798D/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+757,757.0,95.0,PH023799L/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+758,758.0,72.0,PH023812D/18,Male,,,,BCC,,Clark Level 3,Cheek,0.0,1.0,Present,unknown,
+759,759.0,73.0,PH023850M/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Present,unknown,
+760,760.0,78.0,PH024045S/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,subtype: no special type,
+761,761.0,79.0,PH024088E/19,Male,,,,BCC,,,Neck,1.0,1.0,Present,Nodular,Low
+762,762.0,81.0,PH024090V/19,Female,,,,BCC,,,Ear,,,Absent,Nodular,Low
+763,763.0,85.0,PH024101N/19,Male,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+764,764.0,79.0,PH024119S/20,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Ear,1.0,0.0,Absent,subtype: no special type,
+765,765.0,83.0,PH024178Z/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+766,766.0,88.0,PH024201Y/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+767,767.0,80.0,PH024549F/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+768,768.0,97.0,PH024588Z/18,Female,,,Absent,SCC,Poorly Differentiated,,Cheek,1.0,1.0,Absent,unknown,
+769,769.0,66.0,PH024590K/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+770,770.0,71.0,PH024607Y/20,Male,,<2mm,,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Present,unknown,
+771,771.0,62.0,PH024623Q/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+772,772.0,45.0,PH024625J/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,unknown,
+773,773.0,88.0,PH024626V/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+774,774.0,75.0,PH024667S/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+775,775.0,82.0,PH024684N/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+776,776.0,70.0,PH024891S/18,Female,,,,BCC,,Clark Level 3,Chin,1.0,1.0,Absent,unknown,
+777,777.0,69.0,PH025037R/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+778,778.0,76.0,PH025125G/19,Male,,,Absent,melanoma,,Clark Level 5,,1.0,0.0,Present,unknown,
+779,779.0,81.0,PH025373G/20,Male,,,,BCC,,,,0.0,0.0,Absent,Nodular,Low
+780,780.0,84.0,PH025382D/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,unknown,
+781,781.0,76.0,PH025466G/20,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Neck,0.0,0.0,Present,subtype: no special type,
+782,782.0,82.0,PH025522A/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+783,783.0,72.0,PH025533P/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+784,784.0,64.0,PH025561S/19,Female,,,,BCC,,,Nose,0.0,,Absent,Superficial/Nodular,Low
+785,785.0,82.0,PH025566H/19,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Superficial,Low
+786,786.0,86.0,PH025579Y/19,Female,,,Absent,SCC,Poorly Differentiated,,Lip,0.0,1.0,Present,subtype: no special type,
+787,787.0,66.0,PH025613N/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+788,788.0,80.0,PH025652C/20,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+789,789.0,76.0,PH025655M/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+790,790.0,83.0,PH025664L/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+791,791.0,88.0,PH025693M/19,Male,,>2-4mm,,SCC,Moderately Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+792,792.0,94.0,PH025740J/19,Male,,,,BCC,,,Temple,1.0,1.0,,Superficial,Low
+793,793.0,78.0,PH025874S/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+794,794.0,84.0,PH025882R/18,Female,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+795,795.0,81.0,PH025885L/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+796,796.0,84.0,PH025890K/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+797,797.0,79.0,PH025915N/18,Male,,,,BCC,,Clark Level 5,Neck,1.0,1.0,Present,unknown,
+798,798.0,81.0,PH026030N/18,Female,,,Absent,melanoma,,Clark Level 5,Forehead,1.0,1.0,Present,unknown,
+799,799.0,73.0,PH026035P/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+800,800.0,33.0,PH026149H/20,Female,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+801,801.0,74.0,PH026152X/18,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+802,802.0,78.0,PH026175R/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+803,803.0,80.0,PH026181C/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+804,804.0,94.0,PH026266N/18,Male,,,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+805,805.0,70.0,PH026312P/19,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,Ear,,,Absent,subtype: no special type,
+806,806.0,79.0,PH026345G/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+807,807.0,72.0,PH026427Z/20,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+808,808.0,81.0,PH026447W/19,Female,,,,BCC,,,Eyelid,1.0,1.0,Absent,Nodular,Low
+809,809.0,86.0,PH026448P/19,Male,,,Absent,SCC,Poorly Differentiated,,Ear,1.0,,Present,subtype: no special type,
+810,810.0,83.0,PH026452G/19,Male,,,Absent,SCC,Poorly Differentiated,,Temple,1.0,1.0,Absent,subtype: no special type,
+811,811.0,78.0,PH026453Z/19,Male,,,,BCC,,,,0.0,1.0,Present,Nodular,Low
+812,812.0,71.0,PH026488G/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+813,813.0,73.0,PH026496X/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,1.0,1.0,Absent,subtype: no special type,
+814,814.0,64.0,PH026503Z/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+815,815.0,79.0,PH026514G/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+816,816.0,87.0,PH026519H/19,Male,,,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Uncertain,subtype: no special type,
+817,817.0,61.0,PH026600H/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+818,818.0,86.0,PH026650G/20,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,unknown,
+819,819.0,76.0,PH026701Z/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+820,820.0,75.0,PH026804G/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+821,821.0,87.0,PH026805Z/18,Female,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+822,822.0,75.0,PH026810V/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+823,823.0,78.0,PH026811B/18,Male,,<2mm,Absent,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+824,824.0,80.0,PH026815S/18,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Lip,1.0,1.0,Absent,unknown,
+825,825.0,90.0,PH026818N/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+826,826.0,87.0,PH026836C/19,Male,,,,BCC,,Clark Level 5,Cheek,0.0,1.0,Absent,Superficial/Nodular,Low
+827,827.0,75.0,PH026964C/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+828,828.0,67.0,PH027033L/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+829,829.0,78.0,PH027035G/20,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,Nodular,Low
+830,830.0,85.0,PH027045L/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+831,831.0,82.0,PH027049N/20,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+832,832.0,87.0,PH027077B/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+833,833.0,68.0,PH027088V/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+834,834.0,62.0,PH027259S/20,Male,,>6mm,Present,SCC,Poorly Differentiated,,,1.0,0.0,Present,subtype: no special type,
+835,835.0,86.0,PH027270P/20,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+836,836.0,40.0,PH027545H/18,Male,,,Absent,BCC,,Clark Level 5,Forehead,0.0,1.0,Present,unknown,
+837,837.0,86.0,PH027748L/18,Male,,,Absent,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+838,838.0,98.0,PH027749S/18,Female,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,0.0,Present,subtype: no special type,
+839,839.0,73.0,PH027778J/18,Male,,,,BCC,,Clark Level 3,Nose,0.0,1.0,Absent,unknown,
+840,840.0,80.0,PH027780E/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+841,841.0,60.0,PH027853A/20,Female,,>6mm,,BCC,,Clark Level 5,,1.0,0.0,Present,Nodular,Low
+842,842.0,73.0,PH027854F/20,Male,,,,BCC,,,Ear,1.0,1.0,Uncertain,Nodular,Low
+843,843.0,91.0,PH027859J/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+844,844.0,81.0,PH027863W/20,Female,,,,BCC,,,Ear,1.0,0.0,Absent,infiltrative,high
+845,845.0,94.0,PH027868T/20,Female,,,,BCC,,,Chin,1.0,1.0,Absent,Nodular,Low
+846,846.0,83.0,PH027967Y/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,unknown,
+847,847.0,84.0,PH027982D/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+848,848.0,74.0,PH028082N/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+849,849.0,62.0,PH028107G/19,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Forehead,1.0,1.0,Absent,subtype: no special type,
+850,850.0,91.0,PH028111E/20,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,Nodular,Low
+851,851.0,54.0,PH028156B/19,Female,,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+852,852.0,76.0,PH028184S/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+853,853.0,77.0,PH028201D/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+854,854.0,75.0,PH028202S/19,Male,,,,BCC,,,,1.0,1.0,Uncertain,Nodular,Low
+855,855.0,85.0,PH028208R/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Shoulder,1.0,1.0,Present,unknown,
+856,856.0,76.0,PH028211P/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+857,857.0,77.0,PH028264W/20,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+858,858.0,91.0,PH028430L/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+859,859.0,73.0,PH028432Z/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+860,860.0,88.0,PH028436H/18,Male,,,,BCC,,Clark Level 5,Nose,0.0,0.0,Absent,unknown,
+861,861.0,78.0,PH028633N/19,Male,,,,BCC,,,Lip,1.0,1.0,Present,Nodular,Low
+862,862.0,83.0,PH028715L/19,Male,,,,BCC,,,Neck,1.0,0.0,Present,Nodular,Low
+863,863.0,89.0,PH028733F/20,Male,<20mm,,,BCC,,Clark 5,Temple,1.0,0.0,Present,Nodular,Low
+864,864.0,76.0,PH028738J/20,Male,,,,BCC,,Clark Level 5,Ear,0.0,,Absent,Nodular,Low
+865,865.0,83.0,PH028782S/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+866,866.0,87.0,PH028856E/18,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,subtype: no special type,
+867,867.0,82.0,PH028860R/18,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,,Present,unknown,
+868,868.0,75.0,PH028868M/19,Female,,<2mm,Absent,SCC,Poorly Differentiated,,Cheek,1.0,1.0,Absent,subtype: no special type,
+869,869.0,67.0,PH028869J/19,Male,,,,BCC,,,Ear,,,Absent,Superficial/Nodular,Low
+870,870.0,82.0,PH028872Y/19,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+871,871.0,73.0,PH028873W/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Cheek,1.0,0.0,Absent,subtype: no special type,
+872,872.0,83.0,PH028874P/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+873,873.0,79.0,PH028875A/19,Female,,>6mm,,BCC,,Clark Level 5,Lip,1.0,1.0,Present,Nodular,Low
+874,874.0,67.0,PH028876F/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,,0.0,0.0,Present,unknown,
+875,875.0,80.0,PH028877C/19,Male,,,,BCC,,,Chin,1.0,1.0,Absent,Superficial/Nodular,Low
+876,876.0,81.0,PH028890S/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+877,877.0,70.0,PH028941H/19,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+878,878.0,86.0,PH029120L/20,Female,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+879,879.0,67.0,PH029124Q/20,Male,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+880,880.0,51.0,PH029138H/20,Male,,,,BCC,,,Nostril,1.0,1.0,Absent,Nodular,Low
+881,881.0,81.0,PH029170C/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Present,unknown,
+882,882.0,66.0,PH029173J/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+883,883.0,72.0,PH029204V/19,Male,,,Absent,SCC,Poorly Differentiated,,Temple,1.0,0.0,Absent,unknown,
+884,884.0,75.0,PH029278Z/18,Female,,,,BCC,,Clark Level 5,Chin,1.0,1.0,Absent,unknown,
+885,885.0,69.0,PH029292M/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+886,886.0,67.0,PH029322G/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+887,887.0,73.0,PH029361K/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+888,888.0,77.0,PH029524J/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+889,889.0,59.0,PH029527R/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Present,subtype: no special type,
+890,890.0,88.0,PH029535M/18,Male,,>4mm,,SCC,Poorly Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+891,891.0,83.0,PH029600E/20,Female,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+892,892.0,89.0,PH029641N/20,Male,<20mm,,,BCC,,?Clark 3,Temple,1.0,1.0,Absent,Nodular,Low
+893,893.0,75.0,PH029693H/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+894,894.0,99.0,PH029693R/18,Female,,,Absent,melanoma,,Clark Level 5,Cheek,0.0,1.0,Present,unknown,
+895,895.0,79.0,PH029741D/20,Male,,>2-4mm,Present,SCC,Moderately Differentiated,Clark Level 5,Eyebrow,1.0,0.0,Absent,unknown,
+896,896.0,85.0,PH029750E/19,Male,,>6mm,,BCC,,Clark Level 5,Temple,1.0,0.0,Uncertain,Nodular,Low
+897,897.0,85.0,PH029751H/19,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,,1.0,0.0,Present,subtype: no special type,
+898,898.0,79.0,PH029753P/19,Male,,,Absent,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+899,899.0,81.0,PH029755F/19,Female,,,Absent,BCC,,,Nose,0.0,1.0,Absent,Superficial/Nodular,Low
+900,900.0,69.0,PH029848F/19,Male,,,Absent,SCC,Moderately Differentiated,,Lip,1.0,1.0,Absent,subtype: no special type,
+901,901.0,81.0,PH029944M/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+902,902.0,72.0,PH030089Q/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+903,903.0,81.0,PH030153L/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Uncertain,unknown,
+904,904.0,49.0,PH030157N/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+905,905.0,88.0,PH030158Q/18,Female,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+906,906.0,80.0,PH030160J/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Eyebrow,1.0,1.0,Absent,subtype: no special type,
+907,907.0,70.0,PH030345Z/20,Male,,<2mm,Absent,SCC,Well Differentiated,,Lip,1.0,1.0,Absent,subtype: no special type,
+908,908.0,90.0,PH030423P/19,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,1.0,1.0,Absent,subtype: no special type,
+909,909.0,82.0,PH030442Q/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+910,910.0,95.0,PH030445X/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+911,911.0,79.0,PH030446D/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Temple,1.0,1.0,Uncertain,unknown,
+912,912.0,74.0,PH030451T/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+913,913.0,93.0,PH030452M/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+914,914.0,81.0,PH030555T/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+915,915.0,91.0,PH030560M/19,Male,,,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+916,916.0,83.0,PH030575P/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+917,917.0,86.0,PH030598W/20,Female,,,,BCC,,,Ear,1.0,,Absent,Nodular,Low
+918,918.0,90.0,PH030618G/19,Male,,,,BCC,,,Cheek,0.0,1.0,Absent,Superficial/Nodular,Low
+919,919.0,75.0,PH030649G/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,,Forehead,1.0,1.0,Present,subtype: no special type,
+920,920.0,71.0,PH030650C/19,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Superficial/Nodular,Low
+921,921.0,92.0,PH030797X/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+922,922.0,71.0,PH030853R/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Present,subtype: no special type,
+923,923.0,82.0,PH030905W/19,Female,,,,BCC,,,Eyelid,1.0,1.0,Absent,Nodular,Low
+924,924.0,82.0,PH031060T/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+925,925.0,74.0,PH031150A/20,Female,,>4-6mm,Absent,SCC,Well Differentiated,Clark Level 4,Nose,0.0,1.0,Present,unknown,
+926,926.0,83.0,PH031197A/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Ear,,,Uncertain,subtype: no special type,
+927,927.0,77.0,PH031315B/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+928,928.0,87.0,PH031344N/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+929,929.0,87.0,PH031350P/20,Female,,>4-6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+930,930.0,75.0,PH031361W/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+931,931.0,60.0,PH031369V/18,Female,,,,BCC,,Clark Level 5,Ear,0.0,1.0,Absent,unknown,
+932,932.0,87.0,PH031401A/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Present,subtype: no special type,
+933,933.0,81.0,PH031404K/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,unknown,
+934,934.0,76.0,PH031408E/19,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Superficial/Nodular,Low
+935,935.0,93.0,PH031432F/20,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+936,936.0,87.0,PH031585L/18,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+937,937.0,86.0,PH031590G/19,Male,,,Present,SCC,Poorly Differentiated,,,1.0,0.0,Present,subtype: no special type,
+938,938.0,83.0,PH031599G/20,Female,,>6mm,,BCC,,Clark Level 5,,1.0,1.0,Absent,Nodular,Low
+939,939.0,89.0,PH031618H/20,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Present,subtype: no special type,
+940,940.0,62.0,PH031708T/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,1.0,1.0,Absent,subtype: no special type,
+941,941.0,84.0,PH031762S/19,Male,,>2-4mm,,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,1.0,Present,subtype: no special type,
+942,942.0,96.0,PH031763G/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Neck,1.0,1.0,Absent,subtype: no special type,
+943,943.0,74.0,PH031764Z/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+944,944.0,76.0,PH031876A/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+945,945.0,100.0,PH031911H/20,Female,,>6mm,,BCC,,Clark Level 5,Nose,0.0,0.0,Present,Nodular,Low
+946,946.0,83.0,PH031939J/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+947,947.0,88.0,PH031975Q/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+948,948.0,89.0,PH031992X/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+949,949.0,81.0,PH032188B/18,Male,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Absent,subtype: no special type,
+950,950.0,84.0,PH032198J/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,,,Absent,subtype: no special type,
+951,951.0,63.0,PH032209F/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+952,952.0,82.0,PH032209F/20,Female,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,Nodular,Low
+953,953.0,86.0,PH032239A/18,Female,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,,,Absent,subtype: no special type,
+954,954.0,86.0,PH032275D/20,Male,,<2mm,Absent,SCC,Poorly Differentiated,,Ear,1.0,,Present,subtype: no special type,
+955,955.0,77.0,PH032276P/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,0.0,1.0,Absent,subtype: no special type,
+956,956.0,90.0,PH032301X/20,Female,,>6mm,Absent,BCC,,Clark Level 3,Cheek,1.0,1.0,Present,subtype: no special type,
+957,957.0,92.0,PH032304G/20,Female,,,,BCC,,,Temple,1.0,0.0,Absent,Nodular,Low
+958,958.0,90.0,PH032319Q/20,Male,,>6mm,Present,SCC,Poorly Differentiated,,,1.0,0.0,Present,unknown,
+959,959.0,83.0,PH032346A/19,Male,,>6mm,,BCC,,Clark Level 5,Temple,1.0,0.0,Absent,Nodular,Low
+960,960.0,75.0,PH032573K/19,Male,,>6mm,,BCC,,Clark Level 5,,0.0,0.0,Absent,Nodular,Low
+961,961.0,75.0,PH032583C/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+962,962.0,81.0,PH032588V/19,Female,,,,BCC,,,Nose,0.0,0.0,Absent,Superficial/Nodular,Low
+963,963.0,91.0,PH032589B/19,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+964,964.0,85.0,PH032601M/19,Male,,,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+965,965.0,85.0,PH032611T/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,1.0,Present,subtype: no special type,
+966,966.0,96.0,PH032671R/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+967,967.0,81.0,PH032675F/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+968,968.0,90.0,PH032676Z/18,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+969,969.0,59.0,PH032681V/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+970,970.0,77.0,PH032683Y/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+971,971.0,83.0,PH032705E/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+972,972.0,40.0,PH032728P/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+973,973.0,87.0,PH032799R/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+974,974.0,54.0,PH032922J/18,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+975,975.0,81.0,PH032975P/18,Male,,,,BCC,,Clark Level 5,Nose,0.0,0.0,Absent,unknown,
+976,976.0,77.0,PH033043B/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+977,977.0,56.0,PH033075K/18,Female,,,,BCC,,Clark Level 3,Lip,1.0,0.0,Absent,unknown,
+978,978.0,70.0,PH033291Q/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+979,979.0,42.0,PH033306B/18,Female,,,,BCC,,,Temple,1.0,1.0,Absent,unknown,
+980,980.0,78.0,PH033317V/20,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+981,981.0,75.0,PH033321S/19,Male,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+982,982.0,61.0,PH033326R/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+983,983.0,77.0,PH033373H/20,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Lip,1.0,1.0,Absent,subtype: no special type,
+984,984.0,77.0,PH033448C/18,Female,,,,BCC,,Clark Level 3,Lip,0.0,1.0,Absent,unknown,
+985,985.0,88.0,PH033475N/18,Female,,,,BCC,,Clark Level 5,Forehead,0.0,0.0,Present,unknown,
+986,986.0,75.0,PH033477E/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+987,987.0,81.0,PH033477M/19,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+988,988.0,90.0,PH033479Y/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+989,989.0,75.0,PH033480B/18,Female,,,,BCC,,Clark Level 3,Eyelid,1.0,1.0,Absent,unknown,
+990,990.0,91.0,PH033481R/18,Male,,,,melanoma,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+991,991.0,87.0,PH033483L/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+992,992.0,71.0,PH033549B/19,Male,,>2-4mm,,SCC,Moderately Differentiated,,Cheek,1.0,1.0,Present,unknown,
+993,993.0,90.0,PH033550H/19,Female,,,,BCC,,,Nose,0.0,1.0,Absent,Nodular,Low
+994,994.0,91.0,PH033583Q/19,Female,,,Absent,melanoma,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+995,995.0,60.0,PH033596E/19,Male,,,Absent,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+996,996.0,74.0,PH033617C/19,Female,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+997,997.0,80.0,PH033631R/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+998,998.0,56.0,PH033633L/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+999,999.0,89.0,PH033671F/20,Male,,,,BCC,,,,1.0,0.0,Absent,unknown,
+1000,1000.0,91.0,PH033677E/19,Female,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+1001,1001.0,92.0,PH033681R/19,Female,,,,BCC,,,,,1.0,Absent,Superficial/Nodular,Low
+1002,1002.0,89.0,PH033779Z/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1003,1003.0,70.0,PH033797P/18,Female,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1004,1004.0,71.0,PH033835K/20,Male,<20mm,,,BCC,,wedge,Ear,1.0,1.0,Absent,Nodular,Low
+1005,1005.0,59.0,PH033837J/20,Female,,,,melanoma,,,Cheek,1.0,0.0,Absent,unknown,
+1006,1006.0,85.0,PH033920E/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,Cheek,1.0,1.0,Present,subtype: no special type,
+1007,1007.0,75.0,PH033947R/19,Male,,,,BCC,,,Ear,1.0,1.0,Present,Nodular,Low
+1008,1008.0,71.0,PH033950L/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,0.0,Absent,unknown,
+1009,1009.0,60.0,PH034102Y/20,Female,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+1010,1010.0,67.0,PH034122W/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1011,1011.0,86.0,PH034123P/20,Male,,,Present,SCC,Poorly Differentiated,,Temple,0.0,1.0,Absent,Superficial/Nodular,Low
+1012,1012.0,58.0,PH034128K/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1013,1013.0,65.0,PH034131Q/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,0.0,Absent,unknown,
+1014,1014.0,75.0,PH034137F/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1015,1015.0,75.0,PH034141Z/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1016,1016.0,76.0,PH034142Q/20,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1017,1017.0,72.0,PH034143E/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1018,1018.0,70.0,PH034144H/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1019,1019.0,79.0,PH034184D/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1020,1020.0,73.0,PH034249M/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+1021,1021.0,76.0,PH034252H/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1022,1022.0,79.0,PH034308L/19,Female,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+1023,1023.0,72.0,PH034344M/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1024,1024.0,76.0,PH034402F/19,Female,,,,BCC,,,,1.0,1.0,Uncertain,Nodular,Low
+1025,1025.0,87.0,PH034433F/19,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1026,1026.0,79.0,PH034491P/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Present,unknown,
+1027,1027.0,88.0,PH034493C/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,unknown,
+1028,1028.0,78.0,PH034510G/19,Male,,,,BCC,,,Cheek,0.0,0.0,Absent,Nodular,Low
+1029,1029.0,62.0,PH034532B/20,Female,,,,BCC,,,,0.0,0.0,Absent,Nodular,Low
+1030,1030.0,72.0,PH034536L/20,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+1031,1031.0,91.0,PH034544B/20,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,Ear,,0.0,Uncertain,unknown,
+1032,1032.0,88.0,PH034552G/19,Male,,,,BCC,,,Jawline,1.0,1.0,Absent,Nodular,Low
+1033,1033.0,82.0,PH034553Z/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,Ear,0.0,0.0,Absent,subtype: no special type,
+1034,1034.0,86.0,PH034575T/20,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1035,1035.0,78.0,PH034577Z/19,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,,1.0,0.0,Absent,subtype: no special type,
+1036,1036.0,68.0,PH034597D/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1037,1037.0,86.0,PH034659J/18,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+1038,1038.0,78.0,PH034706T/20,Male,,>6mm,Present,SCC,Moderately Differentiated,,Forehead,1.0,1.0,Absent,unknown,
+1039,1039.0,82.0,PH034714P/20,Male,,,,BCC,,,Ear,1.0,,Absent,Nodular,Low
+1040,1040.0,44.0,PH034792R/18,Female,,,,BCC,,Clark Level 5,,0.0,1.0,Absent,unknown,
+1041,1041.0,53.0,PH034795L/18,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1042,1042.0,77.0,PH034798Z/18,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+1043,1043.0,77.0,PH034830S/18,Male,,>6mm,,BCC,,Clark Level 5,Forehead,1.0,0.0,Absent,unknown,
+1044,1044.0,84.0,PH034853A/19,Male,,,Absent,SCC,Well Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+1045,1045.0,86.0,PH034966H/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1046,1046.0,75.0,PH035048Y/20,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1047,1047.0,31.0,PH035059J/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1048,1048.0,78.0,PH035145P/19,Female,,,,BCC,,,Temple,1.0,1.0,Present,Superficial/Nodular,Low
+1049,1049.0,90.0,PH035197K/20,Male,,>6mm,,BCC,,Clark Level 5,Neck,1.0,0.0,Present,Nodular,Low
+1050,1050.0,61.0,PH035243G/20,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1051,1051.0,87.0,PH035249V/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1052,1052.0,85.0,PH035285E/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1053,1053.0,87.0,PH035310J/18,Male,,,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+1054,1054.0,82.0,PH035333W/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,unknown,
+1055,1055.0,71.0,PH035346P/19,Male,,,,BCC,,,Nose,0.0,1.0,Absent,Superficial/Nodular,Low
+1056,1056.0,85.0,PH035358P/19,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1057,1057.0,56.0,PH035422V/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1058,1058.0,68.0,PH035456Z/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1059,1059.0,40.0,PH035457N/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,,Nose,1.0,1.0,Absent,subtype: no special type,
+1060,1060.0,104.0,PH035485B/19,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,,,1.0,0.0,Present,subtype: no special type,
+1061,1061.0,80.0,PH035549M/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1062,1062.0,85.0,PH035571S/20,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1063,1063.0,69.0,PH035579P/20,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1064,1064.0,90.0,PH035582S/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1065,1065.0,69.0,PH035603Y/20,Female,,,,BCC,,,,1.0,1.0,Absent,unknown,
+1066,1066.0,88.0,PH035609T/18,Male,,,Present,SCC,Moderately Differentiated,Clark Level 5,Ear,0.0,0.0,Absent,subtype: no special type,
+1067,1067.0,50.0,PH035631N/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1068,1068.0,73.0,PH035632E/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1069,1069.0,79.0,PH035636P/20,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+1070,1070.0,91.0,PH035638F/20,Female,,,,BCC,,,Nose,0.0,0.0,Present,Nodular,Low
+1071,1071.0,86.0,PH035686P/19,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,1.0,Uncertain,subtype: no special type,
+1072,1072.0,68.0,PH035688F/19,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1073,1073.0,81.0,PH035736Q/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1074,1074.0,70.0,PH035929L/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+1075,1075.0,67.0,PH035937B/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1076,1076.0,88.0,PH035942F/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+1077,1077.0,93.0,PH035947J/18,Female,,>6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,0.0,Absent,subtype: no special type,
+1078,1078.0,83.0,PH035956T/20,Female,,>2-4mm,Present,SCC,Moderately Differentiated,,,0.0,0.0,Present,subtype: no special type,
+1079,1079.0,95.0,PH035957K/20,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+1080,1080.0,78.0,PH035959J/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1081,1081.0,69.0,PH036089M/20,Male,,,,BCC,,,Neck,1.0,1.0,Absent,unknown,
+1082,1082.0,80.0,PH036121T/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1083,1083.0,48.0,PH036122M/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1084,1084.0,81.0,PH036124V/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+1085,1085.0,90.0,PH036194T/19,Female,,>6mm,,BCC,,Clark Level 5,,0.0,0.0,Present,Nodular,Low
+1086,1086.0,74.0,PH036234R/18,Female,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+1087,1087.0,76.0,PH036244V/18,Female,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1088,1088.0,81.0,PH036246R/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,unknown,
+1089,1089.0,75.0,PH036255J/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1090,1090.0,75.0,PH036267N/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1091,1091.0,85.0,PH036289G/19,Male,,,Absent,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1092,1092.0,95.0,PH036331X/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1093,1093.0,71.0,PH036333S/19,Male,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,Nodular,Low
+1094,1094.0,71.0,PH036334G/19,Male,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+1095,1095.0,79.0,PH036335M/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,0.0,0.0,Absent,subtype: no special type,
+1096,1096.0,84.0,PH036335Z/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1097,1097.0,82.0,PH036369S/19,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,Superficial/Nodular,Low
+1098,1098.0,84.0,PH036384Q/20,Male,,,Absent,melanoma,,Clark Level 5,Lip,,,Present,unknown,
+1099,1099.0,81.0,PH036389P/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+1100,1100.0,74.0,PH036462F/19,Female,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1101,1101.0,86.0,PH036480Q/19,Male,<20mm,,,BCC,,wedge,Ear,1.0,1.0,Absent,Nodular,Low
+1102,1102.0,92.0,PH036492E/19,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1103,1103.0,88.0,PH036604A/19,Female,,<2mm,Absent,SCC,Moderately Differentiated,,Temple,1.0,1.0,Present,Nodular,Low
+1104,1104.0,89.0,PH036605G/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1105,1105.0,79.0,PH036625C/19,Female,<20mm,,,BCC,,wedge,Nose,1.0,1.0,Absent,Nodular,Low
+1106,1106.0,81.0,PH036628M/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1107,1107.0,84.0,PH037013A/20,Male,,,,BCC,,,Nose,,0.0,Absent,Nodular,Low
+1108,1108.0,85.0,PH037022C/20,Female,,,Present,melanoma,,Clark Level 5,,1.0,0.0,Absent,unknown,
+1109,1109.0,75.0,PH037023T/20,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1110,1110.0,88.0,PH037050N/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1111,1111.0,67.0,PH037062Q/20,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1112,1112.0,94.0,PH037123W/20,Male,,,Absent,SCC,Moderately Differentiated,,Neck,1.0,1.0,Absent,subtype: no special type,
+1113,1113.0,52.0,PH037172X/20,Female,,,Absent,melanoma,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1114,1114.0,72.0,PH037197W/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Superficial/Nodular,Low
+1115,1115.0,75.0,PH037210E/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1116,1116.0,86.0,PH037213P/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1117,1117.0,81.0,PH037222D/19,Male,<20mm,,,BCC,,?Clark 3,Ear,1.0,1.0,Absent,Nodular,Low
+1118,1118.0,73.0,PH037247L/19,Male,<20mm,,,BCC,,?Clark 3,Forehead,1.0,1.0,Absent,Nodular,Low
+1119,1119.0,88.0,PH037258F/20,Female,,>4-6mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1120,1120.0,83.0,PH037261G/20,Male,,>2-4mm,Absent,BCC,,,,1.0,0.0,Absent,unknown,
+1121,1121.0,85.0,PH037280H/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Neck,1.0,1.0,Absent,subtype: no special type,
+1122,1122.0,83.0,PH037307A/20,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1123,1123.0,76.0,PH037316Y/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1124,1124.0,76.0,PH037319X/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1125,1125.0,70.0,PH037350X/20,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1126,1126.0,73.0,PH037363L/20,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1127,1127.0,78.0,PH037370J/18,Male,,,,BCC,,Clark Level 4,Nose,1.0,1.0,Absent,unknown,
+1128,1128.0,93.0,PH037372R/20,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,unknown,
+1129,1129.0,88.0,PH037378Z/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1130,1130.0,68.0,PH037380K/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Temple,1.0,0.0,Absent,subtype: no special type,
+1131,1131.0,77.0,PH037381M/18,Male,,,,BCC,,Clark Level 3,,1.0,0.0,Absent,unknown,
+1132,1132.0,80.0,PH037385X/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1133,1133.0,76.0,PH037422F/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1134,1134.0,90.0,PH037427J/19,Female,<20mm,,,BCC,,?Clark 3,Neck,1.0,1.0,Absent,Nodular,Low
+1135,1135.0,55.0,PH037455D/18,Female,,,,BCC,,Clark Level 3,,1.0,,Absent,unknown,
+1136,1136.0,81.0,PH037468P/19,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1137,1137.0,80.0,PH037471L/19,Male,,>6mm,,BCC,,Clark Level 5,Ear,1.0,0.0,Uncertain,Nodular,Low
+1138,1138.0,36.0,PH037473Z/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1139,1139.0,74.0,PH037507S/18,Male,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+1140,1140.0,69.0,PH037673M/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Ear,1.0,1.0,Absent,subtype: no special type,
+1141,1141.0,59.0,PH037747A/20,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,0.0,Absent,unknown,
+1142,1142.0,92.0,PH037826W/20,Female,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+1143,1143.0,84.0,PH037827P/20,Male,,,,BCC,,,Forehead,1.0,,Absent,Superficial/Nodular,Low
+1144,1144.0,71.0,PH037888D/18,Male,,,Absent,melanoma,,Clark Level 4,Ear,1.0,1.0,Absent,unknown,
+1145,1145.0,86.0,PH037889L/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1146,1146.0,72.0,PH038019W/18,Male,,,Absent,melanoma,,Clark Level 4,,1.0,0.0,Absent,unknown,
+1147,1147.0,70.0,PH038065L/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Present,unknown,
+1148,1148.0,72.0,PH038089P/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1149,1149.0,89.0,PH038129J/19,Female,,,,BCC,,,Ear,1.0,1.0,Present,Nodular,Low
+1150,1150.0,63.0,PH038153V/20,Female,,,,BCC,,,Chin,1.0,1.0,Absent,Nodular,Low
+1151,1151.0,89.0,PH038159A/19,Male,,>2-4mm,,SCC,Moderately Differentiated,,,1.0,0.0,Absent,subtype: no special type,
+1152,1152.0,80.0,PH038225J/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1153,1153.0,84.0,PH038234N/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1154,1154.0,81.0,PH038252X/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,0.0,Absent,subtype: no special type,
+1155,1155.0,78.0,PH038262B/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1156,1156.0,70.0,PH038315W/19,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,Nodular,Low
+1157,1157.0,76.0,PH038330N/19,Female,,,,BCC,,,Eyebrow,0.0,0.0,Present,Nodular,Low
+1158,1158.0,83.0,PH038333Y/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+1159,1159.0,76.0,PH038386T/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1160,1160.0,80.0,PH038390K/19,Female,,,,BCC,,,Nose,1.0,,Absent,Superficial/Nodular,Low
+1161,1161.0,83.0,PH038391M/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+1162,1162.0,71.0,PH038405E/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1163,1163.0,81.0,PH038417B/18,Female,,,,BCC,,Clark Level 3,Temple,0.0,1.0,Present,unknown,
+1164,1164.0,90.0,PH038418R/18,Male,,>4mm,,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,0.0,Absent,subtype: no special type,
+1165,1165.0,94.0,PH038424E/19,Female,,,Absent,melanoma,,Clark Level 4,,1.0,1.0,Absent,Nodular,
+1166,1166.0,87.0,PH038427D/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1167,1167.0,87.0,PH038459Q/19,Male,,>6mm,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,Nodular,Low
+1168,1168.0,79.0,PH038541M/19,Male,,<2mm,Absent,SCC,Well Differentiated,,Ear,1.0,0.0,Absent,subtype: no special type,
+1169,1169.0,71.0,PH038570D/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Absent,subtype: no special type,
+1170,1170.0,90.0,PH038575K/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1171,1171.0,86.0,PH038899C/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1172,1172.0,86.0,PH039010T/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1173,1173.0,79.0,PH039036W/19,Male,,>2-4mm,,SCC,Moderately Differentiated,,Ear,1.0,1.0,Absent,subtype: no special type,
+1174,1174.0,79.0,PH039060B/19,Female,,>6mm,,BCC,,,Lip,1.0,0.0,Absent,Nodular,Low
+1175,1175.0,75.0,PH039063L/19,Female,<20mm,,,BCC,,?Clark 3,Eyelid,1.0,1.0,Absent,Nodular,Low
+1176,1176.0,75.0,PH039081M/19,Female,<20mm,,,BCC,,,Temple,1.0,1.0,Present,Nodular,Low
+1177,1177.0,90.0,PH039107B/18,Female,,,,BCC,,Clark Level 3,Nose,0.0,0.0,Absent,unknown,
+1178,1178.0,92.0,PH039110W/18,Female,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1179,1179.0,93.0,PH039113C/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+1180,1180.0,72.0,PH039122K/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1181,1181.0,81.0,PH039191W/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,,,1.0,0.0,Absent,subtype: no special type,
+1182,1182.0,90.0,PH039322S/19,Female,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Nose,1.0,1.0,Present,unknown,
+1183,1183.0,82.0,PH039430N/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+1184,1184.0,53.0,PH039437F/18,Female,,,Present,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+1185,1185.0,54.0,PH039482R/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,,Absent,subtype: no special type,
+1186,1186.0,69.0,PH039504K/19,Male,<20mm,,,BCC,,?Clark 3,Ear,1.0,1.0,Absent,Nodular,Low
+1187,1187.0,77.0,PH039980G/19,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+1188,1188.0,78.0,PH039987P/19,Male,26mm,>6mm,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,Nodular,Low
+1189,1189.0,53.0,PH040033Y/19,Male,,,,BCC,,,Nose,0.0,0.0,Absent,Nodular,Low
+1190,1190.0,95.0,PH040152X/19,Male,,>4-6mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Absent,subtype: no special type,
+1191,1191.0,82.0,PH040196H/18,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+1192,1192.0,58.0,PH040202H/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,unknown,
+1193,1193.0,35.0,PH040204D/18,Female,,,Absent,melanoma,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1194,1194.0,66.0,PH040210G/19,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Present,unknown,
+1195,1195.0,84.0,PH040319H/19,Male,,,Absent,SCC,Moderately Differentiated,,,,,Absent,subtype: no special type,
+1196,1196.0,91.0,PH040336Q/19,Male,,,,BCC,,,Forehead,1.0,1.0,Present,Superficial/Nodular,Low
+1197,1197.0,89.0,PH040377A/18,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+1198,1198.0,55.0,PH040401V/19,Male,,,,BCC,,,,1.0,1.0,Absent,Superficial/Nodular,Low
+1199,1199.0,86.0,PH040407K/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+1200,1200.0,68.0,PH040410Q/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,unknown,
+1201,1201.0,76.0,PH040413W/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1202,1202.0,66.0,PH040537B/19,Male,,,,BCC,,,Nose,1.0,0.0,Present,Nodular,Low
+1203,1203.0,81.0,PH040565S/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,,Absent,unknown,
+1204,1204.0,95.0,PH040598X/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1205,1205.0,74.0,PH040667Y/19,Male,,,,BCC,,,Ear,1.0,,Absent,Superficial/Nodular,Low
+1206,1206.0,39.0,PH040668W/19,Male,,,,BCC,,,Chin,1.0,1.0,Absent,Nodular,Low
+1207,1207.0,88.0,PH040670X/19,Female,,,,BCC,,,Nose,1.0,0.0,Absent,Superficial/Nodular,Low
+1208,1208.0,77.0,PH040671D/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1209,1209.0,65.0,PH040705Y/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+1210,1210.0,76.0,PH040820X/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1211,1211.0,73.0,PH041130N/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Present,unknown,
+1212,1212.0,82.0,PH041254W/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1213,1213.0,84.0,PH041257F/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+1214,1214.0,81.0,PH041259T/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Present,unknown,
+1215,1215.0,82.0,PH041285N/18,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Cheek,1.0,0.0,Absent,subtype: no special type,
+1216,1216.0,85.0,PH041431D/18,Male,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+1217,1217.0,80.0,PH041449M/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1218,1218.0,70.0,PH041477X/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1219,1219.0,81.0,PH041478D/18,Male,,,Absent,melanoma,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1220,1220.0,82.0,PH041487B/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,1.0,,Absent,subtype: no special type,
+1221,1221.0,84.0,PH041489X/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1222,1222.0,79.0,PH041512V/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Present,unknown,
+1223,1223.0,82.0,PH041521E/19,Male,,,,BCC,,,Nose,0.0,0.0,Absent,Nodular,Low
+1224,1224.0,78.0,PH041541K/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1225,1225.0,69.0,PH041874X/18,Female,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,unknown,
+1226,1226.0,83.0,PH041999J/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1227,1227.0,62.0,PH042005X/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1228,1228.0,83.0,PH042097P/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,,Present,subtype: no special type,
+1229,1229.0,74.0,PH042100P/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1230,1230.0,79.0,PH042217H/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1231,1231.0,86.0,PH042218Y/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1232,1232.0,83.0,PH042277C/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1233,1233.0,86.0,PH042279K/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1234,1234.0,84.0,PH042321A/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1235,1235.0,86.0,PH042324K/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1236,1236.0,75.0,PH042345F/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1237,1237.0,81.0,PH042406X/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1238,1238.0,87.0,PH042423W/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,0.0,Absent,unknown,
+1239,1239.0,93.0,PH042442N/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+1240,1240.0,85.0,PH042446Y/18,Male,,,Absent,melanoma,,Clark Level 5,Neck,1.0,1.0,Absent,Nodular,
+1241,1241.0,85.0,PH042500W/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1242,1242.0,49.0,PH042512L/18,Female,,,,BCC,,Clark Level 5,Forehead,1.0,0.0,Absent,unknown,
+1243,1243.0,61.0,PH042515C/19,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+1244,1244.0,61.0,PH042546Z/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Lip,1.0,1.0,Absent,subtype: no special type,
+1245,1245.0,73.0,PH042550J/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,0.0,Present,subtype: no special type,
+1246,1246.0,69.0,PH042551V/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,1.0,Present,subtype: no special type,
+1247,1247.0,88.0,PH042553Y/19,Male,,,Present,melanoma,,Clark Level 5,,1.0,0.0,Present,unknown,
+1248,1248.0,37.0,PH042558Z/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1249,1249.0,82.0,PH042591R/19,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+1250,1250.0,77.0,PH042594S/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1251,1251.0,85.0,PH042596Z/19,Female,,,,BCC,,,,0.0,1.0,Absent,Superficial/Nodular,Low
+1252,1252.0,68.0,PH042597N/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1253,1253.0,80.0,PH042619G/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1254,1254.0,86.0,PH042683R/19,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,0.0,Absent,subtype: no special type,
+1255,1255.0,72.0,PH042684X/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1256,1256.0,86.0,PH042685D/19,Male,,>2-4mm,Absent,SCC,Well Differentiated,,Ear,1.0,,Absent,unknown,
+1257,1257.0,77.0,PH042687S/19,Female,,,,BCC,,,Lip,1.0,1.0,Absent,Nodular,Low
+1258,1258.0,76.0,PH042739Y/19,Female,,,,BCC,,,Nose,0.0,0.0,Absent,Nodular,Low
+1259,1259.0,73.0,PH042743L/19,Female,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1260,1260.0,87.0,PH042987D/18,Male,,,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+1261,1261.0,93.0,PH043003A/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1262,1262.0,59.0,PH043094D/18,Female,,,,BCC,,Clark Level 5,Nose,1.0,1.0,Absent,unknown,
+1263,1263.0,80.0,PH043169K/19,Male,,,Present,melanoma,,Clark Level 5,,0.0,0.0,Present,Nodular,
+1264,1264.0,92.0,PH043213Y/18,Female,,,,BCC,,Clark Level 4,,1.0,0.0,Absent,unknown,
+1265,1265.0,63.0,PH043288T/19,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+1266,1266.0,69.0,PH043365P/19,Male,,,,BCC,,,,1.0,1.0,Present,Nodular,Low
+1267,1267.0,90.0,PH043594E/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+1268,1268.0,82.0,PH044210B/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1269,1269.0,79.0,PH044371Y/18,Male,,>4mm,Absent,SCC,Well Differentiated,Clark Level 5,Neck,1.0,1.0,Absent,subtype: no special type,
+1270,1270.0,51.0,PH044379N/19,Female,,,,BCC,,Clark Level 5,Forehead,1.0,1.0,Absent,Nodular,Low
+1271,1271.0,83.0,PH044404Z/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1272,1272.0,66.0,PH044423M/18,Female,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+1273,1273.0,83.0,PH044429D/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1274,1274.0,73.0,PH044444L/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1275,1275.0,83.0,PH044445S/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1276,1276.0,92.0,PH044455F/18,Male,,>2-4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,subtype: no special type,
+1277,1277.0,89.0,PH044458K/18,Male,,,,BCC,,,Nose,1.0,,,unknown,
+1278,1278.0,84.0,PH044459Z/19,Female,,,,BCC,,,Nostril,1.0,1.0,Uncertain,Nodular,Low
+1279,1279.0,103.0,PH044461K/19,Male,,<2mm,,SCC,Moderately Differentiated,Clark Level 3,Cheek,1.0,1.0,Absent,subtype: no special type,
+1280,1280.0,87.0,PH044463Y/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Cheek,1.0,0.0,Present,subtype: no special type,
+1281,1281.0,67.0,PH044477R/19,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+1282,1282.0,83.0,PH044478X/19,Male,,,,BCC,,,Nose,1.0,,Absent,unknown,
+1283,1283.0,88.0,PH044479D/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1284,1284.0,76.0,PH044582X/18,Female,,,Absent,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1285,1285.0,79.0,PH044590Z/19,Male,,,,BCC,,,Ear,,,Absent,Nodular,Low
+1286,1286.0,73.0,PH044593H/19,Male,,,,BCC,,,Nose,1.0,0.0,Absent,Nodular,Low
+1287,1287.0,90.0,PH044608P/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1288,1288.0,62.0,PH044643F/19,Male,,,,BCC,,,Ear,0.0,0.0,Absent,Superficial/Nodular,Low
+1289,1289.0,78.0,PH044651H/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1290,1290.0,60.0,PH044658K/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1291,1291.0,90.0,PH044840X/19,Male,,>6mm,Present,SCC,Poorly Differentiated,Clark Level 5,Ear,,,Present,subtype: no special type,
+1292,1292.0,81.0,PH044842T/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+1293,1293.0,83.0,PH044860H/18,Female,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Present,unknown,
+1294,1294.0,83.0,PH044860J/19,Female,,>2-4mm,Absent,SCC,Poorly Differentiated,,Cheek,1.0,1.0,Present,subtype: no special type,
+1295,1295.0,80.0,PH044927Q/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Superficial/Nodular,Low
+1296,1296.0,75.0,PH044935S/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1297,1297.0,82.0,PH044939Q/19,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+1298,1298.0,80.0,PH045203N/19,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Present,subtype: no special type,
+1299,1299.0,69.0,PH045204V/18,Female,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1300,1300.0,86.0,PH045376E/18,Male,,,,BCC,,Clark Level 5,Nose,1.0,0.0,Absent,unknown,
+1301,1301.0,62.0,PH045613Q/19,Male,,>2-4mm,,SCC,Moderately Differentiated,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1302,1302.0,99.0,PH045658H/19,Female,,,,BCC,,Clark Level 5,,0.0,0.0,Absent,Superficial/Nodular,Low
+1303,1303.0,77.0,PH045665K/18,Female,,,,BCC,,Clark Level 5,Forehead,0.0,1.0,Present,unknown,
+1304,1304.0,78.0,PH045666M/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1305,1305.0,75.0,PH045694V/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1306,1306.0,78.0,PH045756L/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1307,1307.0,92.0,PH045800M/19,Male,,,Absent,SCC,Poorly Differentiated,,Ear,0.0,,Absent,subtype: no special type,
+1308,1308.0,83.0,PH045806C/18,Female,,,,BCC,,Clark Level 3,Chin,1.0,1.0,Absent,unknown,
+1309,1309.0,72.0,PH045848F/18,Female,,,,BCC,,Clark Level 3,,1.0,0.0,Absent,unknown,
+1310,1310.0,84.0,PH046360M/18,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+1311,1311.0,78.0,PH046361J/18,Female,,,,BCC,,Clark Level 5,Cheek,0.0,1.0,Present,unknown,
+1312,1312.0,90.0,PH046441M/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Present,unknown,
+1313,1313.0,79.0,PH046444R/18,Female,,,,BCC,,Clark Level 5,Temple,0.0,0.0,Absent,unknown,
+1314,1314.0,85.0,PH046445Y/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1315,1315.0,72.0,PH046446D/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1316,1316.0,69.0,PH046498S/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1317,1317.0,72.0,PH046507Y/19,Male,,,,BCC,,,Nose,1.0,0.0,Present,Nodular,Low
+1318,1318.0,61.0,PH046522N/19,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1319,1319.0,81.0,PH046524E/19,Male,,,,BCC,,,,0.0,1.0,Present,Nodular,Low
+1320,1320.0,88.0,PH046549R/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,,Absent,unknown,
+1321,1321.0,76.0,PH046551W/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1322,1322.0,74.0,PH046583M/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1323,1323.0,85.0,PH046618G/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1324,1324.0,88.0,PH046620B/19,Male,,>6mm,Absent,SCC,Poorly Differentiated,,Temple,1.0,0.0,Absent,subtype: no special type,
+1325,1325.0,91.0,PH046621R/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1326,1326.0,76.0,PH046667W/18,Male,,,,BCC,,Clark Level 3,Neck,1.0,1.0,Absent,unknown,
+1327,1327.0,82.0,PH046671L/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Nose,1.0,1.0,Absent,subtype: no special type,
+1328,1328.0,56.0,PH046672G/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1329,1329.0,67.0,PH046689J/19,Male,,,,BCC,,,,0.0,0.0,Present,Nodular,Low
+1330,1330.0,90.0,PH046733E/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+1331,1331.0,68.0,PH046764A/19,Female,,>2-4mm,Absent,SCC,Moderately Differentiated,,Cheek,1.0,1.0,Absent,subtype: no special type,
+1332,1332.0,100.0,PH046769M/19,Male,,,,BCC,,,Ear,,,Absent,unknown,
+1333,1333.0,77.0,PH046777F/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,unknown,
+1334,1334.0,85.0,PH046825Q/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+1335,1335.0,82.0,PH046826E/18,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+1336,1336.0,76.0,PH046832L/18,Female,,,,BCC,,Clark Level 5,Temple,0.0,0.0,Absent,unknown,
+1337,1337.0,83.0,PH046880P/18,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+1338,1338.0,78.0,PH046884K/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Present,unknown,
+1339,1339.0,78.0,PH046941S/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1340,1340.0,81.0,PH047019E/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+1341,1341.0,59.0,PH047020D/18,Female,,,,BCC,,Clark Level 3,Cheek,0.0,0.0,Absent,unknown,
+1342,1342.0,74.0,PH047028Y/18,Male,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+1343,1343.0,74.0,PH047029B/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1344,1344.0,68.0,PH047031Y/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Nodular,Low
+1345,1345.0,82.0,PH047032P/19,Male,,,,BCC,,,Ear,0.0,0.0,Absent,Nodular,Low
+1346,1346.0,88.0,PH047033A/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,Cheek,0.0,0.0,Absent,unknown,
+1347,1347.0,83.0,PH047128C/19,Male,,>6mm,Absent,BCC,,,Forehead,0.0,0.0,Present,Nodular,Low
+1348,1348.0,74.0,PH047299N/19,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,infiltrative,high
+1349,1349.0,89.0,PH047604K/19,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1350,1350.0,51.0,PH047606J/19,Male,,>6mm,,BCC,,Clark Level 5,,1.0,0.0,Absent,Nodular,Low
+1351,1351.0,68.0,PH047609R/19,Female,,>6mm,,BCC,,Clark Level 5,Forehead,1.0,0.0,Absent,Nodular,Low
+1352,1352.0,84.0,PH047681C/18,Male,,,,BCC,,Clark Level 5,Temple,0.0,0.0,Present,unknown,
+1353,1353.0,81.0,PH047734D/18,Male,,>4mm,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+1354,1354.0,77.0,PH047735L/18,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Ear,,,Absent,subtype: no special type,
+1355,1355.0,74.0,PH047737F/19,Female,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+1356,1356.0,61.0,PH047737G/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1357,1357.0,89.0,PH047744R/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Present,subtype: no special type,
+1358,1358.0,72.0,PH047748A/19,Male,,>4-6mm,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,unknown,
+1359,1359.0,89.0,PH047749F/19,Female,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+1360,1360.0,77.0,PH047909Q/19,Female,,>6mm,,BCC,,Clark Level 5,Forehead,1.0,0.0,Present,Nodular,Low
+1361,1361.0,81.0,PH048317L/19,Female,,,,BCC,,,Forehead,0.0,0.0,Absent,Superficial/Nodular,Low
+1362,1362.0,69.0,PH048854K/19,Male,,,Absent,SCC,Moderately Differentiated,,,1.0,1.0,Absent,unknown,
+1363,1363.0,70.0,PH048919Y/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1364,1364.0,81.0,PH048921G/18,Male,,,,BCC,,Clark Level 3,Nose,0.0,1.0,Absent,unknown,
+1365,1365.0,80.0,PH048989D/18,Female,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+1366,1366.0,91.0,PH048998B/18,Male,,>4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Absent,subtype: no special type,
+1367,1367.0,66.0,PH049001E/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1368,1368.0,65.0,PH049003B/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1369,1369.0,73.0,PH049011T/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1370,1370.0,79.0,PH049038L/19,Male,,,Absent,SCC,Moderately Differentiated,,Forehead,1.0,0.0,Absent,unknown,
+1371,1371.0,80.0,PH049146T/19,Male,,,,BCC,,,Lip,1.0,1.0,Absent,Superficial/Nodular,Low
+1372,1372.0,77.0,PH049164X/18,Male,,,,BCC,,Clark Level 5,Lip,1.0,1.0,Absent,unknown,
+1373,1373.0,75.0,PH049167S/18,Male,,,,BCC,,Clark Level 3,Lip,1.0,1.0,Absent,unknown,
+1374,1374.0,82.0,PH049168G/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1375,1375.0,80.0,PH049169Z/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1376,1376.0,72.0,PH049183Z/19,Male,,,,BCC,,Clark Level 5,Cheek,1.0,1.0,Absent,unknown,
+1377,1377.0,89.0,PH049299A/19,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Neck,1.0,1.0,Absent,subtype: no special type,
+1378,1378.0,86.0,PH049343L/18,Male,,,,BCC,,Clark Level 5,Cheek,1.0,0.0,Present,unknown,
+1379,1379.0,76.0,PH049453Z/19,Female,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1380,1380.0,67.0,PH049561M/19,Female,,,,BCC,,,Forehead,1.0,1.0,Present,Nodular,Low
+1381,1381.0,81.0,PH049590D/18,Female,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+1382,1382.0,57.0,PH049593C/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1383,1383.0,75.0,PH049637S/19,Female,,,,BCC,,,Cheek,1.0,1.0,Absent,Superficial/Nodular,Low
+1384,1384.0,89.0,PH049663T/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1385,1385.0,73.0,PH049678J/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1386,1386.0,74.0,PH049689M/19,Female,,,,BCC,,,Temple,1.0,1.0,Present,Superficial/Nodular,Low
+1387,1387.0,81.0,PH049690N/19,Male,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1388,1388.0,76.0,PH049724V/19,Female,,,Absent,melanoma,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1389,1389.0,82.0,PH049731G/18,Male,,,Absent,SCC,Moderately Differentiated,Clark Level 5,Lip,1.0,1.0,Absent,subtype: no special type,
+1390,1390.0,81.0,PH049735H/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1391,1391.0,96.0,PH049736Y/18,Female,,>6mm,Present,SCC,Poorly Differentiated,Clark Level 5,Forehead,1.0,1.0,Present,subtype: no special type,
+1392,1392.0,67.0,PH049778G/18,Male,,,,BCC,,Clark Level 3,,0.0,1.0,Absent,unknown,
+1393,1393.0,68.0,PH049787D/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+1394,1394.0,87.0,PH049954K/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,1.0,Absent,unknown,
+1395,1395.0,78.0,PH049995Y/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1396,1396.0,79.0,PH050035F/18,Male,,,,BCC,,Clark Level 3,Cheek,0.0,,Absent,unknown,
+1397,1397.0,50.0,PH050038K/18,Male,,,,BCC,,Clark Level 3,Forehead,0.0,1.0,Present,unknown,
+1398,1398.0,90.0,PH050084A/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+1399,1399.0,81.0,PH050105V/19,Female,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1400,1400.0,70.0,PH050142G/18,Male,,,,BCC,,Clark Level 5,Temple,1.0,1.0,Absent,unknown,
+1401,1401.0,79.0,PH050170M/18,Male,,,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+1402,1402.0,74.0,PH050172B/18,Male,,,,BCC,,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+1403,1403.0,75.0,PH050200E/18,Male,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Forehead,0.0,1.0,Present,subtype: no special type,
+1404,1404.0,80.0,PH050253K/19,Female,,,,BCC,,,Cheek,1.0,,Absent,Nodular,Low
+1405,1405.0,87.0,PH050256V/19,Male,,>2-4mm,Present,SCC,Poorly Differentiated,Clark Level 3,Ear,1.0,1.0,Absent,subtype: no special type,
+1406,1406.0,91.0,PH050268V/19,Male,,<2mm,Absent,SCC,Well Differentiated,Clark Level 3,Cheek,1.0,0.0,Absent,subtype: no special type,
+1407,1407.0,74.0,PH050285S/18,Female,,>4mm,Absent,SCC,Moderately Differentiated,Clark Level 5,Nose,1.0,0.0,Absent,subtype: no special type,
+1408,1408.0,95.0,PH050886Q/19,Female,,,,BCC,,,,1.0,0.0,Absent,Nodular,Low
+1409,1409.0,84.0,PH050911Z/19,Male,,>6mm,Absent,SCC,Moderately Differentiated,,,1.0,0.0,Present,subtype: no special type,
+1410,1410.0,90.0,PH050918A/19,Male,,,,BCC,,,Temple,1.0,1.0,Absent,Superficial/Nodular,Low
+1411,1411.0,44.0,PH050922X/18,Female,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1412,1412.0,88.0,PH050940T/18,Male,,,,BCC,,Clark Level 3,,1.0,1.0,Absent,unknown,
+1413,1413.0,85.0,PH050959D/18,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+1414,1414.0,78.0,PH050972X/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1415,1415.0,91.0,PH050986L/19,Male,,,,BCC,,,Eyebrow,0.0,0.0,Absent,Nodular,Low
+1416,1416.0,95.0,PH051058C/19,Female,,>6mm,,SCC,Poorly Differentiated,,Eyebrow,1.0,1.0,Absent,subtype: no special type,
+1417,1417.0,65.0,PH051172X/19,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+1418,1418.0,65.0,PH051174L/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1419,1419.0,73.0,PH051196X/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1420,1420.0,87.0,PH051213P/19,Male,,,,SCC,Moderately Differentiated,,,1.0,1.0,Absent,unknown,
+1421,1421.0,70.0,PH051252E/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1422,1422.0,71.0,PH051275Q/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1423,1423.0,91.0,PH051416M/18,Female,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,,1.0,1.0,Absent,unknown,
+1424,1424.0,86.0,PH051430P/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,unknown,
+1425,1425.0,85.0,PH051450E/18,Male,,>4mm,Present,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,0.0,Present,unknown,
+1426,1426.0,70.0,PH051484K/19,Male,,,,BCC,,,Cheek,1.0,1.0,Absent,Nodular,Low
+1427,1427.0,77.0,PH051487V/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1428,1428.0,98.0,PH051521Y/18,Male,,>6mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Ear,1.0,1.0,Absent,subtype: no special type,
+1429,1429.0,74.0,PH051523A/18,Male,,,,BCC,,Clark Level 5,,1.0,0.0,Absent,unknown,
+1430,1430.0,71.0,PH051527K/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1431,1431.0,75.0,PH051665L/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1432,1432.0,51.0,PH051703L/18,Female,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1433,1433.0,83.0,PH051946C/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1434,1434.0,75.0,PH051949M/18,Male,,,,BCC,,Clark Level 3,Cheek,1.0,1.0,Absent,unknown,
+1435,1435.0,71.0,PH052115C/19,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,,,1.0,1.0,Present,subtype: no special type,
+1436,1436.0,88.0,PH052121A/19,Female,,,,BCC,,,Nose,1.0,1.0,Absent,Superficial/Nodular,Low
+1437,1437.0,84.0,PH052123N/18,Male,,>2-4mm,Absent,SCC,Poorly Differentiated,Clark Level 5,,1.0,0.0,Present,subtype: no special type,
+1438,1438.0,53.0,PH052162Q/19,Female,,,,BCC,,,Cheek,1.0,1.0,Present,Nodular,Low
+1439,1439.0,75.0,PH052167P/19,Female,,,,BCC,,,,1.0,,,unknown,Low
+1440,1440.0,74.0,PH052174Q/19,Female,,,,BCC,,,Chin,0.0,1.0,Present,Nodular,Low
+1441,1441.0,87.0,PH052191R/19,Male,,>6mm,,BCC,,Clark Level 5,Temple,1.0,0.0,Absent,Nodular,Low
+1442,1442.0,76.0,PH052222H/18,Male,,,,BCC,,Clark Level 3,Ear,1.0,,Absent,unknown,
+1443,1443.0,82.0,PH052225P/18,Male,,>2-4mm,Absent,SCC,Well Differentiated,Clark Level 5,,1.0,1.0,Absent,subtype: no special type,
+1444,1444.0,81.0,PH052255T/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1445,1445.0,63.0,PH052259V/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1446,1446.0,74.0,PH052262W/19,Female,,>4-6mm,Absent,SCC,Poorly Differentiated,,Forehead,1.0,0.0,Present,subtype: no special type,
+1447,1447.0,86.0,PH052275P/19,Male,,,,BCC,,,Neck,1.0,1.0,Absent,Nodular,Low
+1448,1448.0,76.0,PH052281Z/19,Male,,,,BCC,,,Eyebrow,1.0,1.0,Absent,Nodular,Low
+1449,1449.0,76.0,PH052293N/19,Female,,,,BCC,,,Forehead,1.0,1.0,Absent,Nodular,Low
+1450,1450.0,84.0,PH052296H/19,Male,,<2mm,Absent,SCC,Moderately Differentiated,Clark Level 3,Temple,1.0,1.0,Absent,subtype: no special type,
+1451,1451.0,76.0,PH052364E/19,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 3,,1.0,1.0,Absent,subtype: no special type,
+1452,1452.0,89.0,PH052372K/18,Male,,,,BCC,,Clark Level 3,Forehead,1.0,1.0,Absent,unknown,
+1453,1453.0,71.0,PH052383S/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1454,1454.0,80.0,PH052386J/18,Male,,<2mm,Absent,SCC,Poorly Differentiated,Clark Level 5,Temple,1.0,1.0,Absent,subtype: no special type,
+1455,1455.0,89.0,PH052436D/18,Female,,,,BCC,,Clark Level 3,Tongue,1.0,1.0,Absent,unknown,
+1456,1456.0,92.0,PH052630Q/18,Male,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1457,1457.0,81.0,PH052670H/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1458,1458.0,76.0,PH052691J/18,Female,,,,BCC,,Clark Level 3,Nose,1.0,1.0,Absent,unknown,
+1459,1459.0,83.0,PH052730L/18,Male,,,,BCC,,Clark Level 3,Temple,1.0,1.0,Absent,unknown,
+1460,1460.0,71.0,PH052742A/19,Male,,,,BCC,,,,1.0,1.0,Absent,Nodular,Low
+1461,1461.0,79.0,PH052785E/19,Male,,,,BCC,,,Ear,1.0,1.0,Absent,Nodular,Low
+1462,1462.0,75.0,PH052789L/18,Male,,,,BCC,,Clark Level 5,,1.0,1.0,Absent,unknown,
+1463,1463.0,87.0,PH052817F/19,Male,,,,BCC,,,Nose,1.0,1.0,Absent,Nodular,Low
+1464,1464.0,75.0,PH052991F/19,Male,,,,BCC,,Clark Level 3,Forehead,0.0,1.0,Present,infiltrative,high
+1465,,,,,,,,,,,,,,,,Low
+1466,238.0,96.0,PH006061N/20,Male,,,,BCC,,Clark Level 4,Cheek,0.0,0.0,Present,,
+1467,669.0,83.0,PH021056A/20,Male,<20mm,,,BCC,,,Chin,1.0,0.0,Absent,,
+1468,863.0,89.0,PH028733F/20,Male,<20mm,,,BCC,,Clark 5,Temple,1.0,1.0,Absent,,
+1469,1101.0,86.0,PH036480Q/19,Male,<20mm,,,BCC,,,Ear,1.0,,Absent,,
+1470,1134.0,90.0,PH037427J/19,Female,<20mm,,,BCC,,?Clark 3,Neck,1.0,1.0,Absent,,
+1471,1175.0,75.0,PH039063L/19,Female,<20mm,,,BCC,,?Clark 3,Cheek,1.0,1.0,Absent,,

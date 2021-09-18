@@ -1,5 +1,5 @@
-time_left_for_this_task 3600
-per_run_time_limit 360
+time_left_for_this_task 30
+per_run_time_limit 1
 n_jobs 4
 memory_limit 5000
 seed 2
