@@ -25,11 +25,11 @@ wekaCV () {
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_BCC_and_SCC_peripheral_margin_deep_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_BCC_and_SCC_peripheral_margin_deep_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_BCC_and_SCC_peripheral_margin_deep_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/BCC_SCC_deep/one_hour_experiment_seed_85.log $1
@@ -38,11 +38,11 @@ wekaCV $1 "./outputAutoML/BCC_SCC_deep/one_hour_experiment_seed_85_"
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_BCC_and_SCC_peripheral_margin_raw_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_BCC_and_SCC_peripheral_margin_raw_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_BCC_and_SCC_peripheral_margin_raw_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/BCC_SCC_raw/one_hour_experiment_seed_85.log $1
@@ -51,11 +51,11 @@ wekaCV $1 "./outputAutoML/BCC_SCC_raw/one_hour_experiment_seed_85_"
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_BCC_peripheral_margin_deep_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_BCC_peripheral_margin_deep_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_BCC_peripheral_margin_deep_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/BCC_deep/one_hour_experiment_seed_85.log $1
@@ -63,11 +63,11 @@ wekaCV $1 "./outputAutoML/BCC_deep/one_hour_experiment_seed_85_"
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_BCC_peripheral_margin_raw_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_BCC_peripheral_margin_raw_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_BCC_peripheral_margin_raw_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/BCC_raw/one_hour_experiment_seed_85.log $1
@@ -75,11 +75,11 @@ wekaCV $1 "./outputAutoML/BCC_raw/one_hour_experiment_seed_85_"
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_SCC_peripheral_margin_deep_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_SCC_peripheral_margin_deep_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_SCC_peripheral_margin_deep_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/SCC_deep/one_hour_experiment_seed_85.log $1
@@ -87,11 +87,11 @@ wekaCV $1 "./outputAutoML/SCC_deep/one_hour_experiment_seed_85_"
 
 #################
 
-# DATASET NAME:
+# DATASET NAME: main_SCC_peripheral_margin_raw_prediction_analysis
 
 #################
 
-echo "Cross validation analysis..."
+echo "Cross validation about main_SCC_peripheral_margin_raw_prediction_analysis..."
 
 echo "First experiment seed 85 (one hour):"
 python3 ./main_analysis/main_SCC_peripheral_margin_raw_prediction_analysis.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/SCC_raw/one_hour_experiment_seed_85.log $1
