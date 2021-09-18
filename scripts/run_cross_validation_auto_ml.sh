@@ -45,8 +45,8 @@ echo "Generate latex table from Datasets characteristics {imbalanced dataset che
 echo "Cross validation ObesityDataset_raw_and_data_synthetic analysis..."
 
 echo "First experiment seed 85 (one hour):"
-#python3 ./main_analysis/main_obesity_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/ObesityDataset_raw_and_data_synthetic/one_hour_experiment_seed_85.log cv $1
-#wekaCV $1 "./outputAutoML/ObesityDataset_raw_and_data_synthetic/one_hour_experiment_seed_85_"
+python3 ./main_analysis/main_obesity_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/ObesityDataset_raw_and_data_synthetic/one_hour_experiment_seed_85.log cv $1
+wekaCV $1 "./outputAutoML/ObesityDataset_raw_and_data_synthetic/one_hour_experiment_seed_85_"
 
 
 #################
@@ -57,8 +57,8 @@ echo "First experiment seed 85 (one hour):"
 echo "Cross validation diabetic-retinopathy-Debrecen analysis..."
 
 echo "First experiment seed 85 (one hour):"
-#python3 ./main_analysis/main_diabetes_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_85.log cv $1
-#wekaCV $1 "./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_85_"
+python3 ./main_analysis/main_diabetes_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_85.log cv $1
+wekaCV $1 "./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_85_"
 
 #################
 
@@ -69,8 +69,8 @@ echo "First experiment seed 85 (one hour):"
 echo "Cross validation Thoracic-Surgery-binary-survival analysis..."
 
 echo "First experiment seed 85 (one hour):"
-#python3 ./main_analysis/main_thoracic_surgery_datasets.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Thoracic-Surgery-binary-survival/one_hour_experiment_seed_85.log cv $1
-#wekaCV $1 "./outputAutoML/Thoracic-Surgery-binary-survival/one_hour_experiment_seed_85_"
+python3 ./main_analysis/main_thoracic_surgery_datasets.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Thoracic-Surgery-binary-survival/one_hour_experiment_seed_85.log cv $1
+wekaCV $1 "./outputAutoML/Thoracic-Surgery-binary-survival/one_hour_experiment_seed_85_"
 
 #################
 
@@ -81,8 +81,8 @@ echo "First experiment seed 85 (one hour):"
 echo "Cross validation Breast-cancer-Coimbra analysis..."
 
 echo "First experiment seed 85 (one hour):"
-#python3 ./main_analysis/main_breast_cancer_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Breast-cancer-Coimbra/one_hour_experiment_seed_85.log cv $1
-#wekaCV $1 "./outputAutoML/Breast-cancer-Coimbra/one_hour_experiment_seed_85_"
+python3 ./main_analysis/main_breast_cancer_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Breast-cancer-Coimbra/one_hour_experiment_seed_85.log cv $1
+wekaCV $1 "./outputAutoML/Breast-cancer-Coimbra/one_hour_experiment_seed_85_"
 
 #################
 
@@ -93,6 +93,6 @@ echo "First experiment seed 85 (one hour):"
 echo "Cross validation Heart-failure analysis..."
 
 echo "First experiment seed 85 (one hour):"
-#python3 ./main_analysis/main_hearth_failure_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Heart-failure-clinical-records/one_hour_experiment_seed_85.log cv $1
-#wekaCV $1 "./outputAutoML/Heart-failure-clinical-records/one_hour_experiment_seed_85_"
+python3 ./main_analysis/main_hearth_failure_dataset.py "./params/params_seed_85_one_hour.params" > ./outputAutoML/Heart-failure-clinical-records/one_hour_experiment_seed_85.log cv $1
+wekaCV $1 "./outputAutoML/Heart-failure-clinical-records/one_hour_experiment_seed_85_"
 
