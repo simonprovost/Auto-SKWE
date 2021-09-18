@@ -1,4 +1,12 @@
+import os
 import sys
+import inspect
+
+import numpy as np
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
 
 from src.preProcess import *
 from src.processing import Processing
@@ -28,7 +36,8 @@ def main(argv):
     if len(argv) == 4 and argv[3] == "weka":
         datasetCrossVal = data.redefineColumnsType(selfInput=False, extraData=dataset[0])
 
-    autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName, **params)
+    autoML = Processing(inputData=X, classLabelData=y, entireDataset=datasetCrossVal, datasetName=data.datasetName,
+                        **params)
     autoML.setup()
     if len(argv) == 3 and argv[2] == "cv":
         autoML.k_folds_split(k_folds=10)
@@ -36,7 +45,8 @@ def main(argv):
         autoML.show_latex_cross_validation_process()
     elif len(argv) == 4 and argv[3] == "weka":
         autoML.k_folds_split(k_folds=10)
-        autoML.cross_validation_process("./outputCrossValidationAutoML/diabetic-retinopathy-Debrecen/", AutoSklearn=False)
+        autoML.cross_validation_process("./outputCrossValidationAutoML/diabetic-retinopathy-Debrecen/",
+                                        AutoSklearn=False)
     else:
         autoML.fit_predict()
         models = autoML.get_best_models(numberOfModelToGet=0, display=False)
