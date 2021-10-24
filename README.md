@@ -11,9 +11,11 @@
 **Auto-WEKA**: https://github.com/automl/autoweka \
 **Auto-Sklearn**: https://github.com/automl/auto-sklearn
 
-## 💡 REPORT ABOUT THE ANALYSIS
+## 💡 Final Dissertation
 
-[Click here to read the final disseratation!](https://github.com/simonprovost/AutoML/blob/main/report/latest_report.pdf)
+[Click here to read the final dissertation!](https://github.com/simonprovost/AutoML/blob/main/report/Master_Thesis_Provost_Simon_sgp28.pdf)
+
+**Final grade: 75 out of 100. Which enabled me to earn a distinction degree for my master's degree.**
 
 ## Architecture of the repository
 ```
