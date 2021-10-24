@@ -1,4 +1,4 @@
-# AutoML (Auto-Sklearn & Auto-WEKA)
+# Auto-SKWE (Auto-Sklearn vs. Auto-WEKA) 🔬
 
 <p align="justify">
     The following repository contains an analysis of medical datasets using AUTO-WEKA and AUTO-SKLEARN. The purpose of
@@ -11,145 +11,122 @@
 **Auto-WEKA**: https://github.com/automl/autoweka \
 **Auto-Sklearn**: https://github.com/automl/auto-sklearn
 
-## REPORT ABOUT THE ANALYSIS
+## 💡 REPORT ABOUT THE ANALYSIS
 
-[Click here to see the latest report available!](https://github.com/simonprovost/AutoML/blob/main/report/latest_report.pdf)
+[Click here to read the final disseratation!](https://github.com/simonprovost/AutoML/blob/main/report/latest_report.pdf)
 
 ## Architecture of the repository
 ```
 ./
+├── README.md
 ├── datasets
+│   ├── breast-cancer
 │   ├── diabetic-retinopathy-debrecen
+│   ├── heart-failure
+│   ├── nhs-data [PRIVATE]
 │   ├── obesity-data
 │   └── thoracic-data
-│   └── breast-cancer-data
-│   └── heart-failure-data
+├── main_analysis
 ├── outputAutoML
-│   ├── ObesityDataset_raw_and_data_synthetic
-│   ├── Thoracic-Surgery-binary-survival
-│   └── diabetic-retinopathy-Debrecen
-│   └── breast-cancer
-│   └── heart-failure
 ├── outputCrossValidationAutoML
-│   ├── ObesityDataset_raw_and_data_synthetic
-│   ├── Thoracic-Surgery-binary-survival
-│   └── diabetic-retinopathy-Debrecen
-│   └── breast-cancer
-│   └── heart-failure
 ├── params
+├── report
+├── scripts
 └── src
-
-20 directories
 ```
 
 ### Root:
 
-The repository's root directory contains two critical components: the Bash scripts, which enables you to run the analysis
-on all main.py files contained within the script and to log the results of the auto-ML pipeline to the appropriate location 
-with the chosen analysis (i.e: simpe or cross-validation either on Auto-Sklearn or Auto-Weka).
-
-The five *main_X_dataset.py* files contain the pre-processing, and the AutoML pipeline, from opening and reading the dataset
-to feed the data into the `PreProcess class` to ensure that the data meets the Auto-Sklearn/Auto-Weka requirements and running
-the Auto-ML tool to extract relevant information thanks to the `Process class` to determine if the data has been properly classified.
+The root directory of the repository contains one crucial component: the scripts folder, which contains bash scripts that enable you to conduct the analysis you wish to run.
 
 ### Datasets:
 
-The datasets folder contains all the datasets currently being used for analysis, along with their associated features
-definitions (.docx /.pdf files). Sometimes the dataset is either in csv/arff or both format, csv is useful for Auto-Sklearn
-and arff for Auto-Weka even though arff works with Auto-Sklearn along this program's implementation.
+The datasets folder contains all datasets that are currently available for public usage and being analysed, as well as their related feature definitions (.docx /.pdf files). Occasionally, the dataset is in csv/arff or both formats; csv is advantageous for Auto-Sklearn, while arff is advantageous for Auto-Weka, despite the fact that arff works with Auto-Sklearn throughout this program's implementation.
 
 ### Params:
 
-The params folder contains all the parameter files used to feed the AutoML pipeline. You are welcome to use those
-that are already available or to add new ones to the folder. Instead of modifying the `main.py`, we add some
-configuration files that contain the parameters for the AutoML pipeline that will be fed.
+The params directory contains all parameter files that are used to feed the AutoML pipeline. You are welcome to utilise any of the existing ones or to contribute new ones to the folder. Rather of altering '*.py', we add some configuration files containing the settings for the AutoML pipeline that will be fed.
 The files function as a `KEY VALUE` like a Python dictionary. If the `VALUE` is also a dictionary, write it as a
 Python dictionary string with the following syntax: `{'fold'=5}` without whitespace, and everything should be properly
 parsed to feed the AutoML correctly.
 
 ### SRC (sources):
 
-The SRC directory contains all the Python classes and files required to run the project. There should be a `PreProcess` class
-in addition to a `Process` class, as well as an `utils.py` file containing all the project's utility tools.
+All Python classes and files required to run the project are contained in the SRC directory. Additionally to the 'Process' class, there should be a 'PreProcess' class and a 'utils' file holding all of the project's utility tools.
 
 ### OutputAutoML:
 
-The outputAutoML folder will contain the relevant information obtained from the AutoML pipeline, such as a latex table
-about the results that are copied and pasted into some `.log` files by the `run.sh` script.
+The outputAutoML folder will contain the pertinent information gathered from the AutoML pipeline, such as a latex table with the results that will be copied and pasted into some '.log' files by the script you selected.
 
-The chosen format of an output file is as follows:
-
-```
-[A Latex table showing the following results: Dataset name &        Classifier &  Search Time limit &  Algorithm time run (s) &  Seed &  Score accuracy &  Recall & Precision & F1 Micro / Macro & AUROC ]
-
-[All the Hyper Parameters chosen by the AutoML Pipeline]
-```
-
-Note: At the moment for Auto-Weka it is not like that but will be in the future. Auto-Weka report are the output of Auto-Weka
-into a log that has to be then extracted into a latex file/format by hand.
+Nota bene: At the moment, the output formats for Auto-Sklearn and Auto-WEKA are distinct due to the frameworks' separation. However, the result will eventually be generalised to be identical later on the year.
 
 ### OutputCrossValidationAutoML:
 
-The models are stored in this directory as soon as the Auto-ML tool has fitted them.
-Note: At the moment, no model is stored with Auto-Weka's analysis because the framework does not allow it.
-
+Once the Auto-ML programme has fitted the models, they are kept in this directory. 
+Nota bene: No model is currently stored with Auto-analysis Weka's because the framework does not support it.
 
 ## How to Install / Run the project
 
-### Install
+### 🎼 Install
 
 #### Step (1): Before all, you have to download and install the following Framework/Library:
 
 * Auto-sklearn for python: https://automl.github.io/auto-sklearn/master/installation.html _(v. auto-sklearn 0.13.0)_.
+* Scikit-Learn _(see requirement.txt/step(2) for the version+installation)_.
 * Auto-weka : http://www.cs.ubc.ca/labs/beta/Projects/autoweka/manual.pdf _(v. 2.6.3)_.
 * Weka : https://waikato.github.io/weka-wiki/downloading_weka/ _(v. weka-3-8-5)_.
-* Scikit-Learn _(see requirement.txt/step(2) for the version+installation)_.
 
 NB:
 
 > For MacOSX users: we have concocted a list of steps to follow in order to have auto-sklearn working on your machine: > https://gist.github.com/simonprovost/051952533680026b67fa58c3552b8a7b 
 
-> Unfortunately for MacOSX users we did not found a way to make auto-weka being able to be run on OSX (i.e: see this issue: > https://github.com/automl/autoweka/issues/95). Fortunately, it does work on Ubuntu 16/18 LTS.
+> Unfortunately for MacOSX users we did not found a way to make auto-weka being able to be run on OSX (i.e: see this issue: > https://github.com/automl/autoweka/issues/95). Fortunately, it does work on Ubuntu 16/18 LTS. _Note: We use a Google Cloud Compute Engine to make everything work well._
 
 #### Step (2): All the remaining external packages to install can be downloaded as follows:
 
+```shell
+ pip install -r requirements.txt # or pip install -r requirements.txt
 ```
- pip3 install -r requirements.txt # or pip install -r requirements.txt
-```
+_Note: For those who use python3/pip3, add the following subtitute to pip --> pip3_
 
-### Run
+### ⚙️ Run
 
 As soon as everything's downloaded, you could run the project as follows without modification:
 
 Searching of the best classifier given all the datasets available on the entire dataset using Auto-Sklearn:
-```
+```shell
 ./run_simple_auto_ml.sh
 ```
 
 Searching of the best classifier given all the datasets available with a 10-fold cross validation using Auto-Sklearn/Auto-Weka:
 
 Auto-Sklearn:
-```
+```shell
 ./run_cross_validation_auto_ml.sh
 ```
 
 Auto-Weka:
-```
+```shell
 ./run_cross_validation_auto_ml.sh weka
 ```
 
+NHS Analysis: **PRIVATE. Not accessible for public.**
+
 If you want to provide new datasets/params files and their appropriate `main_X_datasets.py`, feel free to add
-a new line within the `run.sh` script and or comment some. Every output will be moved to where you asked in the `run.sh` script,
-and for those already there in the `OutputAutoML/` folder.
+a new line within the appropriate script and or comment some. Every output will be moved to where you asked to be outputted in the appropriate script.
 
-#### How to add a new line to the run.sh Script
+#### 🪛 How to add a new line to the a script
 
 ```
-# [python_interpreter] [main_X_dataset.py you would like to run] [params file to use to feed into the AutoML Pipeline] [OPTIONAL: a redirection to somewhere]
-python3 main_diabetes_dataset.py "./params/params_seed_42_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_42.log
+# [python_interpreter] [main_X_dataset.py you would like to run] [params file to use to feed into the AutoML Pipeline] [OPTIONAL: a redirection to somewhere] [OPTIONAL: use weka or not in adding "weka" as a parameter of the running command]
+python main_diabetes_dataset.py "./params/params_seed_42_one_hour.params" > ./outputAutoML/diabetic-retinopathy-Debrecen/one_hour_experiment_seed_42.log $1 #the argument 1 could be "weka" and while you run the script you add ./myScript weka and it will run an analysis of Auto-WEKA instead of Auto-Sklearn
 ```
+_Note: For those who use python3/pip3, add the following subtitute to python --> python3_
 
-### A few example of how to use the available methods through all classes
+
+### 🔖 A few example of how to use the available methods through all classes
+
+_Note: Additional material will be released in the future (proper documentation) at which point this section will be removed. If you have any questions or encounter an issue, I will assist you via Github Issue._
 
 #### [0] How to use Arff file ?
 
@@ -244,6 +221,10 @@ autoML.k_folds_split(k_folds=10)
 ### run auto-weka with the folds splitted and results the outcome of Auto-Weka.
 autoML.cross_validation_process("./outputCrossValidationAutoML/name_of_the_dataset_for_the_output/")
 ````
+
+## 🤝 Contributions
+
+Anyone can contribute anything that can be used to detect irregularities or patterns in movement data *(sleeping humans)*.
 
 
 
